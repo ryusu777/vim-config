@@ -295,7 +295,16 @@ local default_plugins = {
       require "plugins.configs.dap-config"
     end,
   },
-  { "backdround/global-note.nvim", lazy = true }
+  { "backdround/global-note.nvim", lazy = true },
+  {
+    "ThePrimeagen/harpoon",
+    branch = "harpoon2",
+    lazy = false,
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require "plugins.configs.harpoon"
+    end,
+  },
 }
 
 local config = require("core.utils").load_config()
