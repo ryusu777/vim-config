@@ -66,6 +66,17 @@ local default_plugins = {
   },
 
   {
+    "nvim-tree/nvim-tree.lua",
+    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+    init = function()
+      require("core.utils").load_mappings "nvimtree"
+    end,
+    opts = function()
+      return require "plugins.configs.nvimtree"
+    end,
+  },
+
+  {
     "lukas-reineke/indent-blankline.nvim",
     version = "2.20.7",
     init = function()
@@ -296,15 +307,26 @@ local default_plugins = {
     end,
   },
   { "backdround/global-note.nvim", lazy = true },
+  { 'echasnovski/mini.nvim', version = false },
   {
-    "ThePrimeagen/harpoon",
-    branch = "harpoon2",
-    lazy = false,
-    dependencies = { "nvim-lua/plenary.nvim" },
+    "arsham/listish.nvim",
+    dependencies = {
+      "arsham/arshlib.nvim",
+      "nvim-treesitter/nvim-treesitter-textobjects",
+    },
     config = function()
-      require "plugins.configs.harpoon"
+      require("listish").config({})
     end,
-  },
+    keys = {
+      "<leader>qq",
+      "<leader>qn",
+      "<leader>qo",
+      "<leader>ww",
+      "<leader>wn",
+      "<leader>wo",
+    },
+    ft = { "qf" },
+  }
 }
 
 local config = require("core.utils").load_config()

@@ -2,6 +2,13 @@
 
 local M = {}
 
+M.nvimtree = {
+  plugin = true,
+  n = {
+    ["<leader>e"] = { "<CMD>NvimTreeToggle<CR>", "Toggle NvimTree" }
+  }
+}
+
 M.general = {
   i = {
     -- go to  beginning and end
