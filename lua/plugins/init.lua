@@ -282,23 +282,6 @@ local default_plugins = {
     event = "VeryLazy",
   },
   require("plugins.configs.copilot-chat"),
-  -- {
-  --   "jackMort/ChatGPT.nvim",
-  --   event = "VeryLazy",
-  --   opts = function()
-  --     return require "plugins.configs.chat-gpt"
-  --   end,
-  --   config = function(_, opts)
-  --     require("chatgpt").setup(opts)
-  --   end,
-  --   dependencies = {
-  --     "MunifTanjim/nui.nvim",
-  --     "nvim-lua/plenary.nvim",
-  --     "folke/trouble.nvim",
-  --     "nvim-telescope/telescope.nvim"
-  --   }
-  -- }
-
   {
     "mfussenegger/nvim-dap",
     lazy = false,

@@ -7,6 +7,12 @@ local lspUtil = require "core.lsputil"
 
 -- export on_attach & capabilities for custom lspconfigs
 
+M.on_init = function(client, _)
+  if client.supports_method "textDocument/semanticTokens" then
+    client.server_capabilities.semanticTokensProvider = nil
+  end
+end
+
 M.on_attach = function(client, bufnr)
   client.server_capabilities.documentFormattingProvider = false
   client.server_capabilities.documentRangeFormattingProvider = false

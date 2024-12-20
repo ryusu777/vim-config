@@ -25,8 +25,7 @@ return {
   {
     dir = IS_DEV and "~/Projects/research/CopilotChat.nvim" or nil,
     "CopilotC-Nvim/CopilotChat.nvim",
-    version = "v2.10.0",
-    -- branch = "canary", -- Use the canary branch if you want to test the latest features but it might be unstable
+    branch = "main", -- Use the canary branch if you want to test the latest features but it might be unstable
     -- Do not use branch and version together, either use branch or version
     dependencies = {
       { "nvim-telescope/telescope.nvim" }, -- Use telescope for help actions
@@ -79,14 +78,15 @@ return {
           normal = "gmd",
         },
         -- Show the prompt
-        show_system_prompt = {
+        show_info = {
           normal = "gmp",
         },
         -- Show the user selection
-        show_user_selection = {
+        show_context = {
           normal = "gms",
         },
       },
+      chat_autocomplete = true,  -- Add this line
     },
     config = function(_, opts)
       local chat = require("CopilotChat")
@@ -107,8 +107,6 @@ return {
       }
 
       chat.setup(opts)
-      -- Setup the CMP integration
-      require("CopilotChat.integrations.cmp").setup()
 
       vim.api.nvim_create_user_command("CopilotChatVisual", function(args)
         chat.ask(args.args, { selection = select.visual })
