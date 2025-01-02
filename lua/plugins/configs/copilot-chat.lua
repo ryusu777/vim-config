@@ -87,6 +87,7 @@ return {
         },
       },
       chat_autocomplete = true,  -- Add this line
+      model = 'claude-3.5-sonnet',
     },
     config = function(_, opts)
       local chat = require("CopilotChat")
