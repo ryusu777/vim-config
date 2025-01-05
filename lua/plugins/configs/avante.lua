@@ -2,7 +2,7 @@ return {
   ---@alias Provider "claude" | "openai" | "azure" | "gemini" | "cohere" | "copilot" | string
   provider = "copilot", -- Recommend using Claude
   auto_suggestions_provider = "copilot", -- Since auto-suggestions are a high-frequency operation and therefore expensive, it is recommended to specify an inexpensive provider or even a free provider: copilot
- copilot = {
+  copilot = {
     endpoint = "https://api.githubcopilot.com",
     model = "claude-3.5-sonnet",
     proxy = nil, -- [protocol://]host[:port] Use this proxy

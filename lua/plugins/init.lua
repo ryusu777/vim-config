@@ -1,9 +1,8 @@
 -- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
 -- List of all default plugins & their definitions
+
 local default_plugins = {
-
   "nvim-lua/plenary.nvim",
-
   {
     "NvChad/base46",
     branch = "v2.0",
@@ -30,30 +29,31 @@ local default_plugins = {
     init = function()
       require("core.utils").load_mappings "nvterm"
     end,
+    lazy = true,
     opts = function()
       return require "plugins.configs.nvtermconfig"
     end,
     config = function(_, opts)
-      require "base46.term"
-      require("nvterm").setup(opts)
+      vim.defer_fn(function()
+        require "base46.term"
+        require("nvterm").setup(opts)
+      end, 0)
     end,
   },
-
   {
     "NvChad/nvim-colorizer.lua",
+    event = { "BufReadPost", "BufNewFile" },
     init = function()
       require("core.utils").lazy_load "nvim-colorizer.lua"
     end,
     config = function(_, opts)
-      require("colorizer").setup(opts)
-
-      -- execute colorizer as soon as possible
+      
       vim.defer_fn(function()
+        require("colorizer").setup(opts)
         require("colorizer").attach_to_buffer(0)
-      end, 0)
+      end, 100)
     end,
   },
-
   {
     "nvim-tree/nvim-web-devicons",
     opts = function()
@@ -321,10 +321,11 @@ local default_plugins = {
   {
     "yetone/avante.nvim",
     event = "VeryLazy",
-    lazy = false,
-    version = false, -- set this if you want to always pull the latest change
-    opts = function()
-        return require("plugins.configs.avante")
+    lazy = true,
+    version = false,
+    config = function()
+      local base_config = require("plugins.configs.avante")
+      require("avante").setup(base_config)
     end,
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
     -- build = "make",
@@ -337,6 +338,7 @@ local default_plugins = {
       "hrsh7th/nvim-cmp", -- autocompletion for avante commands and mentions
       "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
       "zbirenbaum/copilot.lua", -- for providers='copilot'
+      -- "github/copilot.vim", -- for providers='copilot'
       {
         -- support for image pasting
         "HakonHarnes/img-clip.nvim",
@@ -361,9 +363,10 @@ local default_plugins = {
           file_types = { "markdown", "Avante" },
         },
         ft = { "markdown", "Avante" },
+        lazy = true
       },
     },
-  }
+  },
 }
 
 local config = require("core.utils").load_config()
