@@ -4,6 +4,10 @@
 local default_plugins = {
   "nvim-lua/plenary.nvim",
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+  },
+  {
     "NvChad/base46",
     branch = "v2.0",
     build = function()
@@ -34,10 +38,8 @@ local default_plugins = {
       return require "plugins.configs.nvtermconfig"
     end,
     config = function(_, opts)
-      vim.defer_fn(function()
-        require "base46.term"
-        require("nvterm").setup(opts)
-      end, 0)
+      require "base46.term"
+      require("nvterm").setup(opts)
     end,
   },
   {
@@ -175,22 +177,6 @@ local default_plugins = {
     "hrsh7th/nvim-cmp",
     event = "InsertEnter",
     dependencies = {
-      -- autopairing of (){}[] etc
-      {
-        "windwp/nvim-autopairs",
-        opts = {
-          fast_wrap = {},
-          disable_filetype = { "TelescopePrompt", "vim" },
-        },
-        config = function(_, opts)
-          require("nvim-autopairs").setup(opts)
-
-          -- setup cmp for autopairs
-          local cmp_autopairs = require "nvim-autopairs.completion.cmp"
-          require("cmp").event:on("confirm_done", cmp_autopairs.on_confirm_done())
-        end,
-      },
-
       -- cmp sources plugins
       {
         "saadparwaiz1/cmp_luasnip",
@@ -297,6 +283,14 @@ local default_plugins = {
       require "plugins.configs.dap-config"
     end,
   },
+  {
+    "rcarriga/nvim-dap-ui",
+    dependencies = {
+      "mfussenegger/nvim-dap",
+      "nvim-neotest/nvim-nio"
+      -- "nvim-neodev/neodev.nvim", -- Recommended for better development experience
+    },
+  },
   { "backdround/global-note.nvim", lazy = true },
   { 'echasnovski/mini.nvim', version = false },
   {
@@ -328,8 +322,8 @@ local default_plugins = {
       require("avante").setup(base_config)
     end,
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
-    -- build = "make",
-    build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false", -- for windows
+    build = "make",
+    --build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false", -- for windows
     dependencies = {
       "stevearc/dressing.nvim",
       "nvim-lua/plenary.nvim",

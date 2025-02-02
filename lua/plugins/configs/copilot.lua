@@ -16,7 +16,7 @@ return {
   },
   suggestion = {
     enabled = true,
-    auto_trigger = false,
+    auto_trigger = true,
     hide_during_completion = true,
     debounce = 300,
     keymap = {

@@ -20,9 +20,9 @@ opt.relativenumber = true
 opt.wrap = false
 opt.laststatus = 3 -- global statusline
 opt.showmode = false
-opt.shell = "pwsh"
-opt.shellcmdflag = "-command"
-opt.shellquote = "\""
+opt.shell = "/bin/zsh"
+opt.shellcmdflag = "-c"
+opt.shellquote = ""
 opt.shellxquote = ""
 
 opt.clipboard = "unnamedplus"

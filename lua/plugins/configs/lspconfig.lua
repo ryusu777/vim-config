@@ -72,39 +72,53 @@ require("lspconfig").csharp_ls.setup {
 }
 
 local function get_typescript_server_path(root_dir)
-  local global_ts = 'C:/inter/AppData/Roaming/npm/node_modules/node_modules/typescript/lib'
-  -- Alternative location if installed as root:
-  -- local global_ts = '/usr/local/lib/node_modules/typescript/lib'
-  local found_ts = ''
-  local function check_dir(path)
-    found_ts =  lspUtil.path.join(path, 'node_modules', 'typescript', 'lib')
-    if lspUtil.path.exists(found_ts) then
-      return path
-    end
+  -- First try to find typescript in the project
+  local local_ts = lspUtil.path.join(root_dir, 'node_modules', 'typescript', 'lib')
+  if lspUtil.path.exists(local_ts) then
+    return local_ts
   end
-  if lspUtil.search_ancestors(root_dir, check_dir) then
-    return found_ts
-  else
+  
+  -- Then try the global installation
+  local global_ts = '/usr/local/lib/node_modules/typescript/lib'
+  if lspUtil.path.exists(global_ts) then
     return global_ts
   end
+
+  -- Fallback to user's npm global directory
+  return vim.fn.expand('~/.npm/lib/node_modules/typescript/lib')
 end
 
 require("lspconfig").volar.setup {
   on_attach = M.on_attach,
   capabilities = M.capabilities,
-  filetypes = { "javascript", "typescript", "vue" },
-  cmd = { 'vue-language-server', '--stdio' },
+  filetypes = { "typescript", "javascript", "vue" },
+  cmd = { "vue-language-server", "--stdio" },
+  root_dir = lspUtil.root_pattern("package.json", "vue.config.js", ".git"),
   init_options = {
-    vue = {
-      hybridMode = false,
-      enableTsInTemplate = true,
-    },
     typescript = {
-      tsdk = get_typescript_server_path(new_root_dir),
-      takeOverMode = true,
+      tsdk = get_typescript_server_path(vim.fn.getcwd()),
+    },
+    languageFeatures = {
+      implementation = true,
+      references = true,
+      definition = true,
+      typeDefinition = true,
+      callHierarchy = true,
+      hover = true,
+      rename = true,
+      renameFileRefactoring = true,
+      signatureHelp = true,
+      codeAction = true,
+      workspaceSymbol = true,
+      completion = {
+        defaultTagNameCase = "both",
+        defaultAttrNameCase = "kebabCase",
+        getDocumentNameCasesRequest = false,
+        getDocumentSelectionRequest = false,
+      },
     },
   },
-  root_dir = lspUtil.root_pattern 'package.json',
+  
   on_new_config = function(new_config, new_root_dir)
     new_config.init_options.typescript.tsdk = get_typescript_server_path(new_root_dir)
   end,
