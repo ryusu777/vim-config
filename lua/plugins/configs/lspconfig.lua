@@ -95,6 +95,10 @@ require("lspconfig").volar.setup {
   cmd = { "vue-language-server", "--stdio" },
   root_dir = lspUtil.root_pattern("package.json", "vue.config.js", ".git"),
   init_options = {
+    vue = {
+      -- disable hybrid mode
+      hybridMode = false,
+    },
     typescript = {
       tsdk = get_typescript_server_path(vim.fn.getcwd()),
     },
