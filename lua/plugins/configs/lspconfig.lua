@@ -79,7 +79,7 @@ local function get_typescript_server_path(root_dir)
   end
   
   -- Then try the global installation
-  local global_ts = '/usr/local/lib/node_modules/typescript/lib'
+  local global_ts = '/opt/homebrew/lib/node_modules/typescript/lib/'
   if lspUtil.path.exists(global_ts) then
     return global_ts
   end

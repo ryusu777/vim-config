@@ -15,6 +15,11 @@ M.blankline = {
     "nvcheatsheet",
     "",
   },
+  indent = { 
+    highlight = {  
+      "LineNr"
+    }
+  },
   buftype_exclude = { "terminal" },
   show_trailing_blankline_indent = false,
   show_first_indent_level = false,

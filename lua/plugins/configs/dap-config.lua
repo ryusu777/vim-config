@@ -85,7 +85,7 @@ dap.adapters.server = {
 dap.adapters.coreclr = function(callback, config)
   callback({
     type = 'executable',
-    command = '/usr/local/netcoredbg',
+    command = '/usr/local/netcoredbg/netcoredbg',
     args = { '--interpreter=vscode' }
   })
 end

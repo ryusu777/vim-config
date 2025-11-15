@@ -1,0 +1,1525 @@
+SpecialKey     xxx guifg=#dfdfe0hi
+EndOfBuffer    xxx links to NonText
+TermCursor     xxx cterm=reverse gui=reverse
+NonText        xxx guifg=#dfdfe0
+Directory      xxx guifg=#3f5f7f
+ErrorMsg       xxx guifg=#a3454e guibg=#d8dee9
+IncSearch      xxx guifg=#f4f4f4 guibg=#b46b54
+Search         xxx guifg=#f4f4f4 guibg=#b88339
+CurSearch      xxx ctermfg=15 ctermbg=3 guifg=NvimLightGrey1 guibg=NvimDarkYellow
+MoreMsg        xxx guifg=#75905e
+ModeMsg        xxx guifg=#75905e
+LineNr         xxx guifg=#4c566a
+LineNrAbove    xxx links to LineNr
+LineNrBelow    xxx links to LineNr
+CursorLineNr   xxx guifg=#2a303c
+CursorLineSign xxx links to SignColumn
+CursorLineFold xxx links to FoldColumn
+Question       xxx guifg=#3f5f7f
+StatusLine     xxx guifg=#646a75
+StatusLineNC   xxx cterm=bold,underline guifg=NvimDarkGrey2 guibg=NvimLightGrey4
+WinSeparator   xxx guifg=#4c566a
+VertSplit      xxx links to WinSeparator
+Title          xxx guifg=#3f5f7f
+Visual         xxx guibg=#e5e5e6
+VisualNC       xxx cleared
+WarningMsg     xxx guifg=#a3454e
+WildMenu       xxx guifg=#a3454e guibg=#b88339
+Folded         xxx guifg=#8b919c
+FoldColumn     xxx guifg=#5b7b9b guibg=#f4f4f4
+DiffAdd        xxx guifg=#3e4450
+DiffChange     xxx guifg=#8b919c
+DiffDelete     xxx guifg=#a3454e
+DiffText       xxx guifg=#2a303c guibg=#c9cfda
+SignColumn     xxx guifg=#dfdfe0
+Conceal        xxx cleared
+SpellBad       xxx cterm=undercurl gui=undercurl guisp=#a3454e
+SpellCap       xxx cterm=undercurl gui=undercurl guisp=#3f5f7f
+SpellRare      xxx cterm=undercurl gui=undercurl guisp=#8d6786
+SpellLocal     xxx cterm=undercurl gui=undercurl guisp=#5b7b9b
+Pmenu          xxx cleared
+PmenuSel       xxx guifg=#d8dee9 guibg=#7191b1
+PmenuMatch     xxx cterm=bold gui=bold
+PmenuMatchSel  xxx cterm=bold gui=bold
+PmenuKind      xxx links to Pmenu
+PmenuKindSel   xxx links to PmenuSel
+PmenuExtra     xxx links to Pmenu
+PmenuExtraSel  xxx links to PmenuSel
+PmenuSbar      xxx guibg=#c7cdd8
+PmenuThumb     xxx guibg=#a9afba
+TabLine        xxx links to StatusLineNC
+TabLineSel     xxx gui=bold
+TabLineFill    xxx links to TabLine
+CursorColumn   xxx guibg=#f4f4f4
+CursorLine     xxx cleared
+ColorColumn    xxx guibg=#f4f4f4
+QuickFixLine   xxx guibg=#f4f4f4
+Whitespace     xxx links to NonText
+NormalNC       xxx cleared
+MsgSeparator   xxx links to StatusLine
+NormalFloat    xxx cleared
+MsgArea        xxx cleared
+FloatBorder    xxx guifg=#3e4450
+WinBar         xxx cterm=bold gui=bold guifg=NvimDarkGrey4 guibg=NvimLightGrey1
+WinBarNC       xxx cterm=bold guifg=NvimDarkGrey4 guibg=NvimLightGrey1
+Cursor         xxx guifg=#d8dee9 guibg=#3e4450
+FloatTitle     xxx links to Title
+FloatFooter    xxx links to FloatTitle
+StatusLineTerm xxx links to StatusLine
+StatusLineTermNC xxx links to StatusLineNC
+RedrawDebugNormal xxx cterm=reverse gui=reverse
+Underlined     xxx cterm=underline gui=underline
+lCursor        xxx guifg=bg guibg=fg
+CursorIM       xxx links to Cursor
+ComplMatchIns  xxx cleared
+Substitute     xxx guifg=#f4f4f4 guibg=#b88339
+VisualNOS      xxx guifg=#a3454e
+Normal         xxx guifg=#3e4450
+Character      xxx guifg=#a3454e
+Constant       xxx guifg=#b46b54
+Number         xxx guifg=#b46b54
+Boolean        xxx guifg=#b46b54
+Float          xxx guifg=#b46b54
+Conditional    xxx guifg=#8d6786
+Statement      xxx guifg=#a3454e
+Repeat         xxx guifg=#b88339
+Label          xxx guifg=#b88339
+Keyword        xxx guifg=#8d6786
+Exception      xxx guifg=#a3454e
+Include        xxx guifg=#3f5f7f
+PreProc        xxx guifg=#b88339
+Define         xxx guifg=#8d6786
+Macro          xxx guifg=#a3454e
+PreCondit      xxx links to PreProc
+StorageClass   xxx guifg=#b88339
+Type           xxx guifg=#b88339
+Structure      xxx guifg=#8d6786
+Typedef        xxx guifg=#b88339
+Tag            xxx guifg=#b88339
+Special        xxx guifg=#5b7b9b
+SpecialChar    xxx guifg=#a3454e
+SpecialComment xxx links to Special
+Debug          xxx guifg=#a3454e
+Ignore         xxx links to Normal
+LspCodeLens    xxx links to NonText
+LspCodeLensSeparator xxx links to LspCodeLens
+LspInlayHint   xxx links to NonText
+LspReferenceRead xxx guifg=#ced4df guibg=#2a303c
+LspReferenceText xxx guifg=#ced4df guibg=#2a303c
+LspReferenceWrite xxx guifg=#ced4df guibg=#2a303c
+LspReferenceTarget xxx links to LspReferenceText
+LspSignatureActiveParameter xxx guifg=#d8dee9 guibg=#75905e
+SnippetTabstop xxx links to Visual
+DiagnosticFloatingError xxx links to DiagnosticError
+DiagnosticError xxx guifg=#a3454e
+DiagnosticFloatingWarn xxx links to DiagnosticWarn
+DiagnosticWarn xxx guifg=#c18401
+DiagnosticFloatingInfo xxx links to DiagnosticInfo
+DiagnosticInfo xxx ctermfg=6 guifg=NvimDarkCyan
+DiagnosticFloatingHint xxx links to DiagnosticHint
+DiagnosticHint xxx guifg=#9c87c7
+DiagnosticFloatingOk xxx links to DiagnosticOk
+DiagnosticOk   xxx ctermfg=2 guifg=NvimDarkGreen
+DiagnosticVirtualTextError xxx links to DiagnosticError
+DiagnosticVirtualTextWarn xxx links to DiagnosticWarn
+DiagnosticVirtualTextInfo xxx links to DiagnosticInfo
+DiagnosticVirtualTextHint xxx links to DiagnosticHint
+DiagnosticVirtualTextOk xxx links to DiagnosticOk
+DiagnosticVirtualLinesError xxx links to DiagnosticError
+DiagnosticVirtualLinesWarn xxx links to DiagnosticWarn
+DiagnosticVirtualLinesInfo xxx links to DiagnosticInfo
+DiagnosticVirtualLinesHint xxx links to DiagnosticHint
+DiagnosticVirtualLinesOk xxx links to DiagnosticOk
+DiagnosticSignError xxx links to DiagnosticError
+DiagnosticSignWarn xxx links to DiagnosticWarn
+DiagnosticSignInfo xxx links to DiagnosticInfo
+DiagnosticSignHint xxx links to DiagnosticHint
+DiagnosticSignOk xxx links to DiagnosticOk
+DiagnosticUnnecessary xxx links to Comment
+Comment        xxx guifg=#9fa5b0
+@variable      xxx guifg=#3e4450
+@variable.builtin xxx guifg=#b46b54
+@variable.parameter xxx guifg=#a3454e
+@variable.parameter.builtin xxx links to Special
+@constant      xxx guifg=#b46b54
+@constant.builtin xxx guifg=#b46b54
+@module        xxx guifg=#a3454e
+@module.builtin xxx links to Special
+@label         xxx links to Label
+@string        xxx guifg=#75905e
+String         xxx guifg=#75905e
+@string.regexp xxx links to @string.special
+@string.special xxx links to SpecialChar
+@string.escape xxx guifg=#5b7b9b
+@string.special.url xxx guifg=#5b7b9b
+@character     xxx guifg=#a3454e
+@character.special xxx links to SpecialChar
+@boolean       xxx links to Boolean
+@number        xxx links to Number
+@number.float  xxx guifg=#b46b54
+@type          xxx links to Type
+@type.builtin  xxx guifg=#b88339
+@attribute     xxx guifg=#b88339
+@attribute.builtin xxx links to Special
+@property      xxx guifg=#a3454e
+Identifier     xxx guifg=#a3454e
+@function      xxx guifg=#3f5f7f
+Function       xxx guifg=#3f5f7f
+@function.builtin xxx guifg=#3f5f7f
+@constructor   xxx guifg=#5b7b9b
+@operator      xxx guifg=#3e4450
+Operator       xxx guifg=#3e4450
+@keyword       xxx guifg=#8d6786
+@punctuation   xxx links to Delimiter
+Delimiter      xxx guifg=#a3454e
+@punctuation.special xxx links to Special
+@comment       xxx guifg=#9fa5b0
+@comment.error xxx links to DiagnosticError
+@comment.warning xxx guifg=#c9cfda guibg=#b46b54
+@comment.note  xxx guifg=#c9cfda guibg=#2a303c
+@comment.todo  xxx guifg=#a9afba guibg=#2a303c
+Todo           xxx guifg=#b88339 guibg=#f4f4f4
+@markup        xxx links to Special
+@markup.strong xxx cterm=bold gui=bold
+@markup.italic xxx cterm=italic gui=italic
+@markup.strikethrough xxx cterm=strikethrough gui=strikethrough
+@markup.underline xxx cterm=underline gui=underline
+@markup.heading xxx guifg=#3f5f7f
+@markup.link   xxx guifg=#a3454e
+@diff          xxx cleared
+@diff.plus     xxx guifg=#75905e
+Added          xxx ctermfg=2 guifg=NvimDarkGreen
+@diff.minus    xxx guifg=#a3454e
+Removed        xxx ctermfg=1 guifg=NvimDarkRed
+@diff.delta    xxx guifg=#8b919c
+Changed        xxx ctermfg=6 guifg=NvimDarkCyan
+@tag           xxx links to Tag
+@tag.builtin   xxx links to Special
+@markup.heading.1.delimiter.vimdoc xxx cterm=underdouble,nocombine gui=underdouble,nocombine guifg=bg guibg=bg guisp=fg
+@markup.heading.2.delimiter.vimdoc xxx cterm=underline,nocombine gui=underline,nocombine guifg=bg guibg=bg guisp=fg
+@lsp           xxx cleared
+@lsp.type.class xxx links to @type
+@lsp.type.comment xxx links to @comment
+@lsp.type.decorator xxx links to @attribute
+@lsp.type.enum xxx links to @type
+@lsp.type.enumMember xxx links to @constant
+@lsp.type.event xxx links to @type
+@lsp.type.function xxx links to @function
+@lsp.type.interface xxx links to @type
+@lsp.type.keyword xxx links to @keyword
+@lsp.type.macro xxx links to @constant.macro
+@constant.macro xxx guifg=#a3454e
+@lsp.type.method xxx links to @function.method
+@lsp.type.modifier xxx links to @type.qualifier
+@lsp.type.namespace xxx links to @module
+@lsp.type.number xxx links to @number
+@lsp.type.operator xxx links to @operator
+@lsp.type.parameter xxx links to @variable.parameter
+@lsp.type.property xxx links to @property
+@lsp.type.regexp xxx links to @string.regexp
+@lsp.type.string xxx links to @string
+@lsp.type.struct xxx links to @type
+@lsp.type.type xxx links to @type
+@lsp.type.typeParameter xxx links to @type.definition
+@lsp.type.variable xxx links to @variable
+@lsp.mod.deprecated xxx links to DiagnosticDeprecated
+DiagnosticDeprecated xxx cterm=strikethrough gui=strikethrough guisp=NvimDarkRed
+FloatShadow    xxx ctermbg=0 guibg=NvimLightGrey4 blend=80
+FloatShadowThrough xxx ctermbg=0 guibg=NvimLightGrey4 blend=100
+MatchParen     xxx links to MatchWord
+RedrawDebugClear xxx ctermfg=15 ctermbg=3 guibg=NvimLightYellow
+RedrawDebugComposed xxx ctermfg=15 ctermbg=2 guibg=NvimLightGreen
+RedrawDebugRecompose xxx ctermfg=15 ctermbg=1 guibg=NvimLightRed
+Error          xxx guifg=#d8dee9 guibg=#a3454e
+DiagnosticUnderlineError xxx cterm=underline gui=underline guisp=NvimDarkRed
+DiagnosticUnderlineWarn xxx cterm=underline gui=underline guisp=NvimDarkYellow
+DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=NvimDarkCyan
+DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=NvimDarkBlue
+DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=NvimDarkGreen
+NvimInternalError xxx guifg=#a3454e
+NvimAssignment xxx links to Operator
+NvimPlainAssignment xxx links to NvimAssignment
+NvimAugmentedAssignment xxx links to NvimAssignment
+NvimAssignmentWithAddition xxx links to NvimAugmentedAssignment
+NvimAssignmentWithSubtraction xxx links to NvimAugmentedAssignment
+NvimAssignmentWithConcatenation xxx links to NvimAugmentedAssignment
+NvimOperator   xxx links to Operator
+NvimUnaryOperator xxx links to NvimOperator
+NvimUnaryPlus  xxx links to NvimUnaryOperator
+NvimUnaryMinus xxx links to NvimUnaryOperator
+NvimNot        xxx links to NvimUnaryOperator
+NvimBinaryOperator xxx links to NvimOperator
+NvimComparison xxx links to NvimBinaryOperator
+NvimComparisonModifier xxx links to NvimComparison
+NvimBinaryPlus xxx links to NvimBinaryOperator
+NvimBinaryMinus xxx links to NvimBinaryOperator
+NvimConcat     xxx links to NvimBinaryOperator
+NvimConcatOrSubscript xxx links to NvimConcat
+NvimOr         xxx links to NvimBinaryOperator
+NvimAnd        xxx links to NvimBinaryOperator
+NvimMultiplication xxx links to NvimBinaryOperator
+NvimDivision   xxx links to NvimBinaryOperator
+NvimMod        xxx links to NvimBinaryOperator
+NvimTernary    xxx links to NvimOperator
+NvimTernaryColon xxx links to NvimTernary
+NvimParenthesis xxx links to Delimiter
+NvimLambda     xxx links to NvimParenthesis
+NvimNestingParenthesis xxx links to NvimParenthesis
+NvimCallingParenthesis xxx links to NvimParenthesis
+NvimSubscript  xxx links to NvimParenthesis
+NvimSubscriptBracket xxx links to NvimSubscript
+NvimSubscriptColon xxx links to NvimSubscript
+NvimCurly      xxx links to NvimSubscript
+NvimContainer  xxx links to NvimParenthesis
+NvimDict       xxx links to NvimContainer
+NvimList       xxx links to NvimContainer
+NvimIdentifier xxx links to Identifier
+NvimIdentifierScope xxx links to NvimIdentifier
+NvimIdentifierScopeDelimiter xxx links to NvimIdentifier
+NvimIdentifierName xxx links to NvimIdentifier
+NvimIdentifierKey xxx links to NvimIdentifier
+NvimColon      xxx links to Delimiter
+NvimComma      xxx links to Delimiter
+NvimArrow      xxx links to Delimiter
+NvimRegister   xxx links to SpecialChar
+NvimNumber     xxx links to Number
+NvimFloat      xxx links to NvimNumber
+NvimNumberPrefix xxx links to Type
+NvimOptionSigil xxx links to Type
+NvimOptionName xxx links to NvimIdentifier
+NvimOptionScope xxx links to NvimIdentifierScope
+NvimOptionScopeDelimiter xxx links to NvimIdentifierScopeDelimiter
+NvimEnvironmentSigil xxx links to NvimOptionSigil
+NvimEnvironmentName xxx links to NvimIdentifier
+NvimString     xxx links to String
+NvimStringBody xxx links to NvimString
+NvimStringQuote xxx links to NvimString
+NvimStringSpecial xxx links to SpecialChar
+NvimSingleQuote xxx links to NvimStringQuote
+NvimSingleQuotedBody xxx links to NvimStringBody
+NvimSingleQuotedQuote xxx links to NvimStringSpecial
+NvimDoubleQuote xxx links to NvimStringQuote
+NvimDoubleQuotedBody xxx links to NvimStringBody
+NvimDoubleQuotedEscape xxx links to NvimStringSpecial
+NvimFigureBrace xxx links to NvimInternalError
+NvimSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimSpacing    xxx links to Normal
+NvimInvalidSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimInvalid    xxx links to Error
+NvimInvalidAssignment xxx links to NvimInvalid
+NvimInvalidPlainAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAugmentedAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAssignmentWithAddition xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithSubtraction xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithConcatenation xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidOperator xxx links to NvimInvalid
+NvimInvalidUnaryOperator xxx links to NvimInvalidOperator
+NvimInvalidUnaryPlus xxx links to NvimInvalidUnaryOperator
+NvimInvalidUnaryMinus xxx links to NvimInvalidUnaryOperator
+NvimInvalidNot xxx links to NvimInvalidUnaryOperator
+NvimInvalidBinaryOperator xxx links to NvimInvalidOperator
+NvimInvalidComparison xxx links to NvimInvalidBinaryOperator
+NvimInvalidComparisonModifier xxx links to NvimInvalidComparison
+NvimInvalidBinaryPlus xxx links to NvimInvalidBinaryOperator
+NvimInvalidBinaryMinus xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcat xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcatOrSubscript xxx links to NvimInvalidConcat
+NvimInvalidOr  xxx links to NvimInvalidBinaryOperator
+NvimInvalidAnd xxx links to NvimInvalidBinaryOperator
+NvimInvalidMultiplication xxx links to NvimInvalidBinaryOperator
+NvimInvalidDivision xxx links to NvimInvalidBinaryOperator
+NvimInvalidMod xxx links to NvimInvalidBinaryOperator
+NvimInvalidTernary xxx links to NvimInvalidOperator
+NvimInvalidTernaryColon xxx links to NvimInvalidTernary
+NvimInvalidDelimiter xxx links to NvimInvalid
+NvimInvalidParenthesis xxx links to NvimInvalidDelimiter
+NvimInvalidLambda xxx links to NvimInvalidParenthesis
+NvimInvalidNestingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidCallingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidSubscript xxx links to NvimInvalidParenthesis
+NvimInvalidSubscriptBracket xxx links to NvimInvalidSubscript
+NvimInvalidSubscriptColon xxx links to NvimInvalidSubscript
+NvimInvalidCurly xxx links to NvimInvalidSubscript
+NvimInvalidContainer xxx links to NvimInvalidParenthesis
+NvimInvalidDict xxx links to NvimInvalidContainer
+NvimInvalidList xxx links to NvimInvalidContainer
+NvimInvalidValue xxx links to NvimInvalid
+NvimInvalidIdentifier xxx links to NvimInvalidValue
+NvimInvalidIdentifierScope xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierScopeDelimiter xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierName xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierKey xxx links to NvimInvalidIdentifier
+NvimInvalidColon xxx links to NvimInvalidDelimiter
+NvimInvalidComma xxx links to NvimInvalidDelimiter
+NvimInvalidArrow xxx links to NvimInvalidDelimiter
+NvimInvalidRegister xxx links to NvimInvalidValue
+NvimInvalidNumber xxx links to NvimInvalidValue
+NvimInvalidFloat xxx links to NvimInvalidNumber
+NvimInvalidNumberPrefix xxx links to NvimInvalidNumber
+NvimInvalidOptionSigil xxx links to NvimInvalidIdentifier
+NvimInvalidOptionName xxx links to NvimInvalidIdentifier
+NvimInvalidOptionScope xxx links to NvimInvalidIdentifierScope
+NvimInvalidOptionScopeDelimiter xxx links to NvimInvalidIdentifierScopeDelimiter
+NvimInvalidEnvironmentSigil xxx links to NvimInvalidOptionSigil
+NvimInvalidEnvironmentName xxx links to NvimInvalidIdentifier
+NvimInvalidString xxx links to NvimInvalidValue
+NvimInvalidStringBody xxx links to NvimStringBody
+NvimInvalidStringQuote xxx links to NvimInvalidString
+NvimInvalidStringSpecial xxx links to NvimStringSpecial
+NvimInvalidSingleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidSingleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidSingleQuotedQuote xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidDoubleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidDoubleQuotedEscape xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+NvimInvalidFigureBrace xxx links to NvimInvalidDelimiter
+NvimInvalidSpacing xxx links to ErrorMsg
+NvimDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+LazyH2         xxx cterm=bold,underline gui=bold,underline guifg=#a3454e
+LazyButton     xxx guifg=#585e68 guibg=#c7cdd8
+LazyH1         xxx guifg=#d8dee9 guibg=#75905e
+TooLong        xxx guifg=#a3454e
+MatchWord      xxx guifg=#2a303c guibg=#a9afba
+St_VisualMode  xxx cterm=bold gui=bold guifg=#6181a1 guibg=#b3b9c4
+St_NTerminalMode xxx cterm=bold gui=bold guifg=#c18401 guibg=#b3b9c4
+St_TerminalMode xxx cterm=bold gui=bold guifg=#75905e guibg=#b3b9c4
+St_NormalMode  xxx cterm=bold gui=bold guifg=#3f5f7f guibg=#b3b9c4
+St_ConfirmMode xxx cterm=bold gui=bold guifg=#395979 guibg=#b3b9c4
+St_CommandMode xxx cterm=bold gui=bold guifg=#75905e guibg=#b3b9c4
+St_SelectMode  xxx cterm=bold gui=bold guifg=#3f5f7f guibg=#b3b9c4
+St_ReplaceMode xxx cterm=bold gui=bold guifg=#b46b54 guibg=#b3b9c4
+St_LspProgress xxx guifg=#a3454e
+St_LspInfo     xxx cterm=bold gui=bold guifg=#75905e
+St_LspHints    xxx cterm=bold gui=bold guifg=#9c87c7
+St_lspWarning  xxx cterm=bold gui=bold guifg=#c18401
+St_lspError    xxx cterm=bold gui=bold guifg=#a3454e
+LazyDir        xxx guifg=#3e4450
+St_InsertMode  xxx cterm=bold gui=bold guifg=#927dbd guibg=#b3b9c4
+St_ft          xxx guifg=#3f5f7f
+St_encode      xxx guifg=#b46b54
+St_cwd         xxx guifg=#a3454e guibg=#b3b9c4
+StText         xxx guifg=#646a75
+St_LspStatus   xxx guifg=#75905e
+Bold           xxx cterm=bold gui=bold
+healthSuccess  xxx guifg=#d8dee9 guibg=#75905e
+Italic         xxx cterm=italic gui=italic
+LazyReasonEvent xxx guifg=#c18401
+LazyProgressDone xxx guifg=#75905e
+LazyReasonImport xxx guifg=#2a303c
+LazyReasonSource xxx guifg=#6181a1
+LazyReasonCmd  xxx guifg=#dea95f
+LazyReasonRuntime xxx guifg=#5b7b9b
+LazyReasonStart xxx guifg=#2a303c
+LazyCommitIssue xxx guifg=#c56770
+LazyTaskOutput xxx guifg=#2a303c
+LazyReasonKeys xxx guifg=#395979
+LazyOperator   xxx guifg=#2a303c
+LazyReasonFt   xxx guifg=#9c87c7
+LazySpecial    xxx guifg=#3f5f7f
+LazyNoCond     xxx guifg=#a3454e
+LazyCommit     xxx guifg=#75905e
+LazyUrl        xxx guifg=#3e4450
+LazyValue      xxx guifg=#395979
+LazyReasonPlugin xxx guifg=#a3454e
+debugPC        xxx cleared
+DapUINormal    xxx links to Normal
+DapUIVariable  xxx links to Normal
+DapUIScope     xxx guifg=#00f1f5
+DapUIType      xxx guifg=#d484ff
+DapUIValue     xxx links to Normal
+DapUIModifiedValue xxx gui=bold guifg=#00f1f5
+DapUIDecoration xxx guifg=#00f1f5
+DapUIThread    xxx guifg=#a9ff68
+DapUIStoppedThread xxx guifg=#00f1f5
+DapUIFrameName xxx links to Normal
+DapUISource    xxx guifg=#d484ff
+DapUILineNumber xxx guifg=#00f1f5
+DapUIFloatNormal xxx links to NormalFloat
+DapUIFloatBorder xxx guifg=#00f1f5
+DapUIWatchesEmpty xxx guifg=#f70067
+DapUIWatchesValue xxx guifg=#a9ff68
+DapUIWatchesError xxx guifg=#f70067
+DapUIBreakpointsPath xxx guifg=#00f1f5
+DapUIBreakpointsInfo xxx guifg=#a9ff68
+DapUIBreakpointsCurrentLine xxx gui=bold guifg=#a9ff68
+DapUIBreakpointsLine xxx links to DapUILineNumber
+DapUIBreakpointsDisabledLine xxx guifg=#424242
+DapUICurrentFrameName xxx links to DapUIBreakpointsCurrentLine
+DapUIStepOver  xxx guifg=#00f1f5
+DapUIStepInto  xxx guifg=#00f1f5
+DapUIStepBack  xxx guifg=#00f1f5
+DapUIStepOut   xxx guifg=#00f1f5
+DapUIStop      xxx guifg=#f70067
+DapUIPlayPause xxx guifg=#a9ff68
+DapUIRestart   xxx guifg=#a9ff68
+DapUIUnavailable xxx guifg=#424242
+DapUIWinSelect xxx ctermfg=14 gui=bold guifg=#00f1f5
+DapUIEndofBuffer xxx links to EndOfBuffer
+DapUINormalNC  xxx guibg=#eef1f8
+                   links to Normal
+DapUIPlayPauseNC xxx guifg=#a9ff68 guibg=#eef1f8
+DapUIRestartNC xxx guifg=#a9ff68 guibg=#eef1f8
+DapUIStopNC    xxx guifg=#f70067 guibg=#eef1f8
+DapUIUnavailableNC xxx guifg=#424242 guibg=#eef1f8
+DapUIStepOverNC xxx guifg=#00f1f5 guibg=#eef1f8
+DapUIStepIntoNC xxx guifg=#00f1f5 guibg=#eef1f8
+DapUIStepBackNC xxx guifg=#00f1f5 guibg=#eef1f8
+DapUIStepOutNC xxx guifg=#00f1f5 guibg=#eef1f8
+DevIconDart    xxx guifg=#6181a1
+DevIconJava    xxx guifg=#b46b54
+DevIconSvelte  xxx guifg=#a3454e
+DevIconJSX     xxx guifg=#3f5f7f
+DevIconTSX     xxx guifg=#3f5f7f
+DevIconMd      xxx guifg=#3f5f7f
+DevIconZig     xxx guifg=#b46b54
+DevIconzip     xxx guifg=#dea95f
+DevIconxz      xxx guifg=#dea95f
+DevIconwoff2   xxx guifg=#2a303c
+DevIconwoff    xxx guifg=#2a303c
+DevIconvue     xxx guifg=#809b69
+DevIconrpm     xxx guifg=#b46b54
+DevIconrb      xxx guifg=#c56770
+DevIconttf     xxx guifg=#2a303c
+DevIconts      xxx guifg=#395979
+DevIcontoml    xxx guifg=#3f5f7f
+DevIconpy      xxx guifg=#6181a1
+DevIconpng     xxx guifg=#927dbd
+DevIconout     xxx guifg=#2a303c
+DevIconmp4     xxx guifg=#2a303c
+DevIconmp3     xxx guifg=#2a303c
+DevIconlock    xxx guifg=#a3454e
+DevIconkt      xxx guifg=#b46b54
+DevIconjs      xxx guifg=#dea95f
+DevIconjpg     xxx guifg=#927dbd
+DevIconjpeg    xxx guifg=#927dbd
+DevIconhtml    xxx guifg=#ae5059
+DevIconDockerfile xxx guifg=#6181a1
+DevIcondeb     xxx guifg=#6181a1
+DevIconcss     xxx guifg=#3f5f7f
+DevIconc       xxx guifg=#3f5f7f
+DevIconDefault xxx guifg=#a3454e
+DevIconlua     xxx guifg=#3f5f7f
+DevIconClojure xxx ctermfg=22 guifg=#466024
+DevIconPsd     xxx ctermfg=24 guifg=#36677c
+DevIconPsb     xxx ctermfg=24 guifg=#36677c
+DevIconProcfile xxx ctermfg=96 guifg=#6b4d83
+DevIconPpt     xxx ctermfg=124 guifg=#983826
+DevIconIni     xxx ctermfg=59 guifg=#526064
+DevIconAi      xxx ctermfg=58 guifg=#666620
+DevIconTex     xxx ctermfg=22 guifg=#3d6117
+DevIconPdf     xxx ctermfg=124 guifg=#b30b00
+DevIconPackedResource xxx ctermfg=59 guifg=#526064
+DevIconHh      xxx ctermfg=96 guifg=#6b4d83
+DevIconOpenSCAD xxx ctermfg=58 guifg=#53480f
+DevIcon3DObjectFile xxx ctermfg=240 guifg=#5b5b5b
+DevIconMustache xxx ctermfg=130 guifg=#975122
+DevIconTypst   xxx ctermfg=30 guifg=#097d80
+DevIconBlueprint xxx ctermfg=25 guifg=#3a6497
+DevIconAsciinema xxx ctermfg=94 guifg=#7e4c10
+DevIconMdx     xxx ctermfg=24 guifg=#36677c
+DevIconMaterial xxx ctermfg=89 guifg=#8a2b72
+DevIconTerraform xxx ctermfg=55 guifg=#4732af
+DevIconTcl     xxx ctermfg=25 guifg=#1e5cb3
+DevIconSig     xxx ctermfg=130 guifg=#975122
+DevIconGTK     xxx ctermfg=236 guifg=#333333
+DevIconMl      xxx ctermfg=130 guifg=#975122
+DevIconLicense xxx ctermfg=58 guifg=#666620
+DevIconLess    xxx ctermfg=54 guifg=#563d7c
+DevIconLeex    xxx ctermfg=96 guifg=#6b4d83
+DevIconNotebook xxx ctermfg=130 guifg=#a35301
+DevIconNushell xxx ctermfg=29 guifg=#276f4e
+DevIconProlog  xxx ctermfg=94 guifg=#725c2a
+DevIconIco     xxx ctermfg=58 guifg=#666620
+DevIconHexadecimal xxx ctermfg=26 guifg=#224abf
+DevIconHbs     xxx ctermfg=130 guifg=#a04f1d
+DevIconVHDL    xxx ctermfg=22 guifg=#017226
+DevIconHaxe    xxx ctermfg=130 guifg=#9c5715
+DevIconHaml    xxx ctermfg=236 guifg=#2f2f2d
+DevIconNorg    xxx ctermfg=25 guifg=#365a8e
+DevIconGraphQL xxx ctermfg=126 guifg=#ac2880
+DevIconGodotProject xxx ctermfg=59 guifg=#526064
+DevIconNix     xxx ctermfg=24 guifg=#3f5d72
+DevIconTempl   xxx ctermfg=58 guifg=#6e5e18
+DevIconGif     xxx ctermfg=96 guifg=#6b4d83
+DevIconSystemVerilog xxx ctermfg=22 guifg=#017226
+DevIconGemfile xxx ctermfg=52 guifg=#701516
+DevIconFsx     xxx ctermfg=24 guifg=#36677c
+DevIconNim     xxx ctermfg=58 guifg=#514700
+DevIconFsi     xxx ctermfg=24 guifg=#36677c
+DevIconWebm    xxx ctermfg=94 guifg=#7e4c10
+DevIconBicep   xxx ctermfg=24 guifg=#36677c
+DevIconSvg     xxx ctermfg=94 guifg=#80581e
+DevIconXcPlayground xxx ctermfg=130 guifg=#975122
+DevIconYaml    xxx ctermfg=59 guifg=#526064
+DevIconEpp     xxx ctermfg=94 guifg=#80530d
+DevIconElf     xxx ctermfg=124 guifg=#9f0500
+DevIconEjs     xxx ctermfg=58 guifg=#666620
+DevIconDropbox xxx ctermfg=26 guifg=#0049be
+DevIconSuo     xxx ctermfg=91 guifg=#643995
+DevIconDrools  xxx ctermfg=238 guifg=#553a3a
+DevIconXml     xxx ctermfg=130 guifg=#975122
+DevIconBat     xxx ctermfg=58 guifg=#40500f
+DevIconDocx    xxx ctermfg=26 guifg=#185abd
+DevIconOpusAudioFile xxx ctermfg=24 guifg=#005880
+DevIconCson    xxx ctermfg=58 guifg=#666620
+DevIconCsh     xxx ctermfg=238 guifg=#3a4446
+DevIconCheckhealth xxx ctermfg=24 guifg=#3a5a7e
+DevIconCp      xxx ctermfg=24 guifg=#36677c
+DevIconCoffee  xxx ctermfg=58 guifg=#666620
+DevIconCobol   xxx ctermfg=25 guifg=#005ca5
+DevIconZsh     xxx ctermfg=22 guifg=#447028
+DevIconConfiguration xxx ctermfg=59 guifg=#526064
+DevIconBrewfile xxx ctermfg=52 guifg=#701516
+DevIconAPL     xxx ctermfg=28 guifg=#1b7936
+DevIconBmp     xxx ctermfg=96 guifg=#6b4d83
+DevIconBicepParameters xxx ctermfg=96 guifg=#6a4d77
+DevIconAvif    xxx ctermfg=96 guifg=#6b4d83
+DevIconLuau    xxx ctermfg=32 guifg=#007abf
+DevIconPp      xxx ctermfg=94 guifg=#80530d
+DevIconVala    xxx ctermfg=54 guifg=#5c2e8b
+DevIconLiquid  xxx ctermfg=58 guifg=#4a6024
+DevIconBunLockfile xxx ctermfg=239 guifg=#4e4946
+DevIconZigObjectNotation xxx ctermfg=94 guifg=#7b4d0e
+DevIconPsScriptfile xxx ctermfg=25 guifg=#325698
+DevIconFsharp  xxx ctermfg=24 guifg=#36677c
+DevIconGradleBuildScript xxx ctermfg=24 guifg=#005f87
+DevIconFortran xxx ctermfg=53 guifg=#563b70
+DevIconBSPWM   xxx ctermfg=236 guifg=#2f2f2f
+DevIconTwig    xxx ctermfg=22 guifg=#466024
+DevIconVimrc   xxx ctermfg=22 guifg=#017226
+DevIconLocalization xxx ctermfg=24 guifg=#1c708e
+DevIconGvimrc  xxx ctermfg=22 guifg=#017226
+DevIconPhp     xxx ctermfg=96 guifg=#6b4d83
+DevIconTmux    xxx ctermfg=28 guifg=#0f8c13
+DevIconJl      xxx ctermfg=96 guifg=#6c4b7c
+DevIconTypeScriptReactTest xxx ctermfg=26 guifg=#1354bf
+DevIconTestTs  xxx ctermfg=24 guifg=#36677c
+DevIconConfig  xxx ctermfg=59 guifg=#526064
+DevIconJavaScriptReactTest xxx ctermfg=31 guifg=#158197
+DevIconTestJs  xxx ctermfg=58 guifg=#666620
+DevIconUI      xxx ctermfg=27 guifg=#015bf0
+DevIconZshrc   xxx ctermfg=22 guifg=#447028
+DevIconZshenv  xxx ctermfg=22 guifg=#447028
+DevIconZshprofile xxx ctermfg=22 guifg=#447028
+DevIconCs      xxx ctermfg=58 guifg=#434d04
+DevIconXInitrc xxx ctermfg=124 guifg=#ac3a12
+DevIconSettingsJson xxx ctermfg=91 guifg=#643995
+DevIconLib     xxx ctermfg=52 guifg=#4d2c0b
+DevIconPyLintConfig xxx ctermfg=59 guifg=#526064
+DevIconPrettierConfig xxx ctermfg=25 guifg=#3264b7
+DevIconPrettierIgnore xxx ctermfg=25 guifg=#3264b7
+DevIconPreCommitConfig xxx ctermfg=94 guifg=#7c5a12
+DevIconSub     xxx ctermfg=94 guifg=#805c0a
+DevIconnode    xxx ctermfg=22 guifg=#3f6b34
+DevIconNuxtConfig xxx ctermfg=29 guifg=#00835f
+DevIconNPMrc   xxx ctermfg=161 guifg=#ae1d38
+DevIconSpecTs  xxx ctermfg=24 guifg=#36677c
+DevIconNPMIgnore xxx ctermfg=161 guifg=#ae1d38
+DevIconJavaScriptReactSpec xxx ctermfg=31 guifg=#158197
+DevIconNano    xxx ctermfg=54 guifg=#440077
+DevIconSpecJs  xxx ctermfg=58 guifg=#666620
+DevIconMailmap xxx ctermfg=160 guifg=#b83a1d
+DevIconLrc     xxx ctermfg=94 guifg=#805c0a
+DevIconLuaurc  xxx ctermfg=32 guifg=#007abf
+DevIconJustfile xxx ctermfg=59 guifg=#526064
+DevIconGitModules xxx ctermfg=160 guifg=#b83a1d
+DevIconGitlabCI xxx ctermfg=124 guifg=#aa321f
+DevIconSolidWorksPrt xxx ctermfg=58 guifg=#576342
+DevIconSolidWorksAsm xxx ctermfg=58 guifg=#576342
+DevIconLibrecadFontFile xxx ctermfg=236 guifg=#2f2f2f
+DevIconSketchUp xxx ctermfg=58 guifg=#576342
+DevIconLog     xxx ctermfg=239 guifg=#4a4a4a
+DevIconGitBlameIgnore xxx ctermfg=160 guifg=#b83a1d
+DevIconSha512  xxx ctermfg=60 guifg=#5d5975
+DevIconEslintIgnore xxx ctermfg=56 guifg=#4b32c3
+DevIconKotlinScript xxx ctermfg=92 guifg=#5f3ebf
+DevIconEnv     xxx ctermfg=236 guifg=#32310d
+DevIconSha384  xxx ctermfg=60 guifg=#5d5975
+DevIconSha256  xxx ctermfg=60 guifg=#5d5975
+DevIconEditorConfig xxx ctermfg=236 guifg=#333030
+DevIconSha224  xxx ctermfg=60 guifg=#5d5975
+DevIconOggMultiplex xxx ctermfg=94 guifg=#7e4c10
+DevIconSha1    xxx ctermfg=60 guifg=#5d5975
+DevIconDsStore xxx ctermfg=239 guifg=#41535b
+DevIconKrita   xxx ctermfg=127 guifg=#a12ea7
+DevIconOggVorbis xxx ctermfg=24 guifg=#005880
+DevIconConda   xxx ctermfg=28 guifg=#2d751c
+DevIconLibreOfficeWriter xxx ctermfg=24 guifg=#16667e
+DevIconKiCad   xxx ctermfg=236 guifg=#333333
+DevIconCodespell xxx ctermfg=28 guifg=#239140
+DevIconLibreOfficeCalc xxx ctermfg=22 guifg=#28541a
+DevIconKdenlive xxx ctermfg=24 guifg=#425c79
+DevIconBashProfile xxx ctermfg=22 guifg=#447028
+DevIconKdbx    xxx ctermfg=28 guifg=#3e7427
+DevIconBabelrc xxx ctermfg=58 guifg=#666620
+DevIconKdb     xxx ctermfg=28 guifg=#3e7427
+DevIconKbx     xxx ctermfg=240 guifg=#565856
+DevIconJpegXl  xxx ctermfg=96 guifg=#6b4d83
+DevIconJWM     xxx ctermfg=25 guifg=#005a9a
+DevIconRazorPage xxx ctermfg=56 guifg=#512bd4
+DevIconRar     xxx ctermfg=94 guifg=#76520c
+DevIconRake    xxx ctermfg=52 guifg=#701516
+DevIconMojo    xxx ctermfg=160 guifg=#bf3917
+DevIconRedhat  xxx ctermfg=196 guifg=#ee0000
+DevIconQt      xxx ctermfg=28 guifg=#2b8937
+DevIconZst     xxx ctermfg=94 guifg=#76520c
+DevIconRaspberryPiOS xxx ctermfg=161 guifg=#be1848
+DevIconPyw     xxx ctermfg=24 guifg=#3c6f98
+DevIconQubesOS xxx ctermfg=25 guifg=#2957a2
+DevIconYml     xxx ctermfg=59 guifg=#526064
+DevIconPyi     xxx ctermfg=94 guifg=#805e02
+DevIconPuppyLinux xxx ctermfg=240 guifg=#51575c
+DevIconXul     xxx ctermfg=130 guifg=#975122
+DevIconpostmarketOS xxx ctermfg=22 guifg=#007300
+DevIconXpi     xxx ctermfg=124 guifg=#bf1401
+DevIconPxd     xxx ctermfg=24 guifg=#3c6f98
+DevIconPop_OS  xxx ctermfg=30 guifg=#307b85
+DevIconLogos   xxx ctermfg=24 guifg=#36677c
+DevIconParrot  xxx ctermfg=23 guifg=#2a6f80
+DevIconParabolaGNULinuxLibre xxx ctermfg=60 guifg=#515373
+DevIconXcLocalization xxx ctermfg=24 guifg=#1c708e
+DevIconopenSUSE xxx ctermfg=64 guifg=#4a7818
+DevIconOpenBSD xxx ctermfg=58 guifg=#514310
+DevIconPptx    xxx ctermfg=124 guifg=#983826
+DevIconNobaraLinux xxx ctermfg=236 guifg=#333333
+DevIconNixOS   xxx ctermfg=24 guifg=#3d586e
+DevIconMXLinux xxx ctermfg=236 guifg=#333333
+DevIconPm      xxx ctermfg=24 guifg=#36677c
+DevIconManjaro xxx ctermfg=29 guifg=#227b3b
+DevIconPls     xxx ctermfg=95 guifg=#764a57
+DevIconMageia  xxx ctermfg=24 guifg=#1a719f
+DevIconLXLE    xxx ctermfg=238 guifg=#474747
+DevIconInfo    xxx ctermfg=236 guifg=#333329
+DevIconLocOS   xxx ctermfg=94 guifg=#7d5a01
+DevIconPatch   xxx ctermfg=239 guifg=#41535b
+DevIconPart    xxx ctermfg=23 guifg=#226654
+DevIconLeap    xxx ctermfg=58 guifg=#54421f
+DevIconKubuntu xxx ctermfg=24 guifg=#005c92
+DevIconOrgMode xxx ctermfg=66 guifg=#4f7166
+DevIconKDEneon xxx ctermfg=30 guifg=#187c7b
+DevIconKali    xxx ctermfg=26 guifg=#1d59bf
+DevIconIllumos xxx ctermfg=160 guifg=#bf320b
+DevIconHyperbolaGNULinuxLibre xxx ctermfg=238 guifg=#404040
+DevIconGuix    xxx ctermfg=58 guifg=#554400
+DevIconGentoo  xxx ctermfg=60 guifg=#585667
+DevIconGarudaLinux xxx ctermfg=25 guifg=#1f57a9
+DevIconFreeBSD xxx ctermfg=160 guifg=#c90f02
+DevIconFedora  xxx ctermfg=17 guifg=#072a5e
+DevIconEndeavour xxx ctermfg=54 guifg=#5c2e8b
+DevIconElementary xxx ctermfg=24 guifg=#3b6081
+DevIconDevuan  xxx ctermfg=238 guifg=#404a52
+DevIconR       xxx ctermfg=25 guifg=#1a4c8c
+DevIconDeepin  xxx ctermfg=24 guifg=#1d6fa5
+DevIconDiff    xxx ctermfg=239 guifg=#41535b
+DevIconDebian  xxx ctermfg=88 guifg=#a80030
+DevIconCrystalLinux xxx ctermfg=129 guifg=#a900ff
+DevIconVim     xxx ctermfg=22 guifg=#017226
+DevIconCentos  xxx ctermfg=89 guifg=#7a3d6a
+DevIconBigLinux xxx ctermfg=31 guifg=#127796
+DevIconArtix   xxx ctermfg=31 guifg=#2b788f
+DevIconArcoLinux xxx ctermfg=25 guifg=#44609d
+DevIconArchlabs xxx ctermfg=238 guifg=#503f42
+DevIconStaticLibraryArchive xxx ctermfg=239 guifg=#494a47
+DevIconArchcraft xxx ctermfg=23 guifg=#435e52
+DevIconApple   xxx ctermfg=240 guifg=#515556
+DevIconAOSC    xxx ctermfg=124 guifg=#c00000
+DevIconAlpine  xxx ctermfg=24 guifg=#0d597f
+DevIconLinux   xxx ctermfg=236 guifg=#333332
+DevIconXSettingsdConf xxx ctermfg=124 guifg=#ac3a12
+DevIconGIMP    xxx ctermfg=238 guifg=#4a4434
+DevIconXorgConf xxx ctermfg=124 guifg=#ac3a12
+DevIconxmonad  xxx ctermfg=131 guifg=#a9333e
+DevIconWebOpenFontFormat xxx cleared
+DevIconWranglerConfig xxx ctermfg=130 guifg=#a35615
+DevIconVRML    xxx ctermfg=240 guifg=#5b5b5b
+DevIconTrueTypeFont xxx cleared
+DevIconBazelWorkspace xxx ctermfg=22 guifg=#447028
+DevIconrobots  xxx cleared
+DevIconWeston  xxx ctermfg=94 guifg=#805e00
+DevIconVLC     xxx ctermfg=130 guifg=#9f5100
+DevIconWaveformAudioFile xxx ctermfg=24 guifg=#0075aa
+DevIconVercel  xxx ctermfg=236 guifg=#333333
+DevIconVsix    xxx ctermfg=91 guifg=#643995
+DevIconConf    xxx ctermfg=59 guifg=#526064
+DevIconLabView xxx ctermfg=58 guifg=#554203
+DevIconVerilog xxx ctermfg=22 guifg=#017226
+DevIconQuery   xxx ctermfg=58 guifg=#607035
+DevIconGitAttributes xxx ctermfg=160 guifg=#b83a1d
+DevIconMotoko  xxx ctermfg=61 guifg=#654ca7
+DevIconCsv     xxx ctermfg=22 guifg=#447028
+DevIconTxz     xxx ctermfg=94 guifg=#76520c
+DevIconErl     xxx ctermfg=89 guifg=#8a2b72
+DevIconDoc     xxx ctermfg=26 guifg=#185abd
+DevIconEx      xxx ctermfg=96 guifg=#6b4d83
+DevIconCodeOfConduct xxx ctermfg=125 guifg=#ab104a
+DevIconNodeModules xxx ctermfg=161 guifg=#ae1d38
+DevIconFsscript xxx ctermfg=24 guifg=#36677c
+DevIconGitCommit xxx ctermfg=160 guifg=#b83a1d
+DevIconCMakeLists xxx ctermfg=236 guifg=#2c2d2f
+DevIconTorrent xxx ctermfg=23 guifg=#226654
+DevIconCantorrc xxx ctermfg=32 guifg=#1573b6
+DevIconBinaryGLTF xxx ctermfg=94 guifg=#80581e
+DevIconAwk     xxx ctermfg=238 guifg=#3a4446
+DevIconTgz     xxx ctermfg=94 guifg=#76520c
+DevIconScheme  xxx ctermfg=236 guifg=#303030
+DevIconElm     xxx ctermfg=24 guifg=#36677c
+DevIconJsonc   xxx ctermfg=58 guifg=#666620
+DevIconBibTeX  xxx ctermfg=58 guifg=#666620
+DevIconEex     xxx ctermfg=96 guifg=#6b4d83
+DevIconSwift   xxx ctermfg=130 guifg=#975122
+DevIconOdin    xxx ctermfg=25 guifg=#2a629e
+DevIconOpenTypeFont xxx ctermfg=236 guifg=#2f2f2f
+DevIconPsManifestfile xxx ctermfg=60 guifg=#4f5893
+DevIconPsScriptModulefile xxx ctermfg=60 guifg=#4f5893
+DevIconGitIgnore xxx ctermfg=160 guifg=#b83a1d
+DevIconGitConfig xxx ctermfg=160 guifg=#b83a1d
+DevIconPyc     xxx ctermfg=236 guifg=#332d1d
+DevIconDot     xxx ctermfg=24 guifg=#244a6a
+DevIconAstro   xxx ctermfg=125 guifg=#aa2f4d
+DevIconRs      xxx ctermfg=95 guifg=#6f5242
+DevIconWebpack xxx ctermfg=24 guifg=#36677c
+DevIconWebp    xxx ctermfg=96 guifg=#6b4d83
+DevIconScala   xxx ctermfg=88 guifg=#992e33
+DevIconDownload xxx ctermfg=23 guifg=#226654
+DevIconSolidity xxx ctermfg=24 guifg=#36677c
+DevIconScss    xxx ctermfg=125 guifg=#a33759
+DevIconSh      xxx ctermfg=238 guifg=#3a4446
+DevIconSml     xxx ctermfg=130 guifg=#975122
+DevIconSql     xxx ctermfg=238 guifg=#494848
+DevIconSsa     xxx ctermfg=94 guifg=#805c0a
+DevIconPl      xxx ctermfg=24 guifg=#36677c
+DevIconStyl    xxx ctermfg=22 guifg=#466024
+DevIconSublime xxx ctermfg=130 guifg=#975122
+DevIconTerminal xxx ctermfg=28 guifg=#217929
+DevIconMakefile xxx ctermfg=59 guifg=#526064
+DevIconXls     xxx ctermfg=29 guifg=#207245
+DevIconDesktopEntry xxx ctermfg=54 guifg=#563d7c
+DevIconCpp     xxx ctermfg=24 guifg=#36677c
+DevIconGroovy  xxx ctermfg=239 guifg=#384e5d
+DevIconSlim    xxx ctermfg=124 guifg=#aa391c
+DevIconSrt     xxx ctermfg=94 guifg=#805c0a
+DevIconTypeScriptDeclaration xxx ctermfg=94 guifg=#6a4c2a
+DevIconGodotTextResource xxx ctermfg=59 guifg=#526064
+DevIconSln     xxx ctermfg=91 guifg=#643995
+DevIconSecurity xxx ctermfg=238 guifg=#3f4143
+DevIconRproj   xxx ctermfg=29 guifg=#286844
+DevIconCxxm    xxx ctermfg=24 guifg=#36677c
+DevIconRlib    xxx ctermfg=95 guifg=#6f5242
+DevIconReScriptInterface xxx ctermfg=125 guifg=#a33759
+DevIconReScript xxx ctermfg=88 guifg=#992e33
+DevIconPyo     xxx ctermfg=236 guifg=#332d1d
+DevIconPyd     xxx ctermfg=236 guifg=#332d1d
+DevIconCMake   xxx ctermfg=236 guifg=#2c2d2f
+DevIconReadme  xxx ctermfg=236 guifg=#2f2f2f
+DevIconCts     xxx ctermfg=24 guifg=#36677c
+DevIconRakefile xxx ctermfg=52 guifg=#701516
+DevIconCSharpProject xxx ctermfg=56 guifg=#512bd4
+DevIconPy.typed xxx ctermfg=94 guifg=#805e02
+DevIconLhs     xxx ctermfg=96 guifg=#6b4d83
+DevIconCrdownload xxx ctermfg=23 guifg=#226654
+DevIconMaven   xxx ctermfg=52 guifg=#7a0d21
+DevIconHTTP    xxx ctermfg=24 guifg=#006a95
+DevIconTSConfig xxx ctermfg=24 guifg=#36677c
+DevIconCppm    xxx ctermfg=24 guifg=#36677c
+DevIconPlatformio xxx ctermfg=130 guifg=#a4571d
+DevIconCowsayFile xxx ctermfg=94 guifg=#70421b
+DevIconPackageJson xxx ctermfg=161 guifg=#ae1d38
+DevIconLibreOfficeGraphics xxx ctermfg=236 guifg=#333211
+DevIconTailwindConfig xxx ctermfg=31 guifg=#158197
+DevIconFIGletFontControl xxx ctermfg=236 guifg=#2f2f2f
+DevIconFreeLosslessAudioCodec xxx ctermfg=24 guifg=#005880
+DevIconKiCadSymbolTable xxx ctermfg=236 guifg=#333333
+DevIconFdmdownload xxx ctermfg=23 guifg=#226654
+DevIconMpv     xxx ctermfg=53 guifg=#3b1342
+DevIconCjs     xxx ctermfg=58 guifg=#666620
+DevIconFreeCAD xxx ctermfg=88 guifg=#98262c
+DevIconCPlusPlusModule xxx ctermfg=125 guifg=#a23253
+DevIconMixLock xxx ctermfg=96 guifg=#6b4d83
+DevIconLXQtConfigFile xxx ctermfg=24 guifg=#016e9e
+DevIconCPlusPlus xxx ctermfg=125 guifg=#a23253
+DevIconBz3     xxx ctermfg=94 guifg=#76520c
+DevIconLXDEConfigFile xxx ctermfg=59 guifg=#606060
+DevIconBz2     xxx ctermfg=94 guifg=#76520c
+DevIconExs     xxx ctermfg=96 guifg=#6b4d83
+DevIconBz      xxx ctermfg=94 guifg=#76520c
+DevIconBoundaryRepresentation xxx ctermfg=58 guifg=#576342
+DevIconEpub    xxx ctermfg=94 guifg=#755836
+DevIconEmbeddedOpenTypeFont xxx ctermfg=236 guifg=#2f2f2f
+DevIconBlender xxx ctermfg=130 guifg=#9c4f00
+DevIconBlade   xxx ctermfg=124 guifg=#a0372b
+DevIconElisp   xxx ctermfg=60 guifg=#61568e
+DevIconBin     xxx ctermfg=124 guifg=#9f0500
+DevIconEslintrc xxx ctermfg=56 guifg=#4b32c3
+DevIconIxx     xxx ctermfg=24 guifg=#36677c
+DevIconEdn     xxx ctermfg=24 guifg=#36677c
+DevIconIso     xxx ctermfg=238 guifg=#453f43
+DevIconClangConfig xxx ctermfg=59 guifg=#526064
+DevIconGentooBuild xxx ctermfg=60 guifg=#4c416e
+DevIconPyx     xxx ctermfg=24 guifg=#3c6f98
+DevIconBazel   xxx ctermfg=22 guifg=#447028
+DevIconPxi     xxx ctermfg=24 guifg=#3c6f98
+DevIconEbook   xxx ctermfg=94 guifg=#755836
+DevIconPub     xxx ctermfg=238 guifg=#4c422f
+DevIconAutoCADDxf xxx ctermfg=58 guifg=#576342
+DevIconBackup  xxx ctermfg=59 guifg=#526064
+DevIconAutoCADDwg xxx ctermfg=58 guifg=#576342
+DevIconDb      xxx ctermfg=238 guifg=#494848
+DevIconAzureCli xxx ctermfg=25 guifg=#005a9f
+DevIconStep    xxx ctermfg=58 guifg=#576342
+DevIconImg     xxx ctermfg=238 guifg=#453f43
+DevIconSlnx    xxx ctermfg=91 guifg=#643995
+DevIconImage   xxx ctermfg=238 guifg=#453f43
+DevIconIgs     xxx ctermfg=58 guifg=#576342
+DevIconGitLogo xxx ctermfg=160 guifg=#b5391e
+DevIconAss     xxx ctermfg=94 guifg=#805c0a
+DevIconIge     xxx ctermfg=58 guifg=#576342
+DevIconAsc     xxx ctermfg=239 guifg=#41525f
+DevIconIfb     xxx ctermfg=18 guifg=#2b2e83
+DevIconGPRBuildProject xxx ctermfg=127 guifg=#aa22aa
+DevIconAppleScript xxx ctermfg=59 guifg=#526064
+DevIconRmd     xxx ctermfg=24 guifg=#36677c
+DevIconIcs     xxx ctermfg=18 guifg=#2b2e83
+DevIconApp     xxx ctermfg=124 guifg=#9f0500
+DevIconGradleSettings xxx ctermfg=24 guifg=#005f87
+DevIconapk     xxx ctermfg=29 guifg=#277e3e
+DevIconIcal    xxx ctermfg=18 guifg=#2b2e83
+DevIconMonkeysAudio xxx ctermfg=24 guifg=#0075aa
+DevIconHxx     xxx ctermfg=96 guifg=#6b4d83
+DevIconAndroid xxx ctermfg=29 guifg=#277e3e
+DevIconSvelteConfig xxx ctermfg=160 guifg=#bf2e00
+DevIconAudioInterchangeFileFormat xxx ctermfg=24 guifg=#0075aa
+DevIconHeex    xxx ctermfg=96 guifg=#6b4d83
+DevIconHurl    xxx ctermfg=125 guifg=#bf0266
+DevIconcuda    xxx ctermfg=22 guifg=#447028
+DevIconAdaSpecification xxx ctermfg=236 guifg=#333333
+DevIconGodotTextScene xxx ctermfg=59 guifg=#526064
+DevIconAdaBody xxx ctermfg=30 guifg=#118080
+DevIconVagrantfile xxx ctermfg=26 guifg=#104abf
+DevIconAdvancedAudioCoding xxx ctermfg=24 guifg=#0075aa
+DevIconFs      xxx ctermfg=24 guifg=#36677c
+DevIconWavPackCorrection xxx ctermfg=24 guifg=#0075aa
+DevIcon7z      xxx ctermfg=94 guifg=#76520c
+DevIcon3gp     xxx ctermfg=94 guifg=#7e4c10
+DevIconHtm     xxx ctermfg=124 guifg=#aa391c
+DevIconWavPack xxx ctermfg=24 guifg=#0075aa
+DevIconLibreOfficeFormula xxx ctermfg=125 guifg=#aa3c64
+DevIconHrl     xxx ctermfg=89 guifg=#8a2b72
+DevIconKDEglobals xxx ctermfg=32 guifg=#1573b6
+DevIconErb     xxx ctermfg=52 guifg=#701516
+DevIconHpp     xxx ctermfg=96 guifg=#6b4d83
+DevIconBzl     xxx ctermfg=22 guifg=#447028
+DevIconBash    xxx ctermfg=22 guifg=#447028
+DevIconNswag   xxx ctermfg=28 guifg=#427516
+DevIconMOV     xxx ctermfg=94 guifg=#7e4c10
+DevIconWebOpenFontFormat2 xxx cleared
+DevIconXaml    xxx ctermfg=56 guifg=#512bd4
+DevIconMd5     xxx ctermfg=60 guifg=#5d5975
+DevIconLibreOfficeImpress xxx ctermfg=94 guifg=#7f4e22
+DevIconDump    xxx ctermfg=238 guifg=#494848
+DevIconKritarc xxx ctermfg=127 guifg=#a12ea7
+DevIconDconf   xxx ctermfg=236 guifg=#333333
+DevIconi3      xxx ctermfg=236 guifg=#2e2f30
+DevIconZorin   xxx ctermfg=67 guifg=#0f79ae
+DevIconKritadisplayrc xxx ctermfg=127 guifg=#a12ea7
+DevIconNfo     xxx ctermfg=236 guifg=#333329
+DevIconKdenliverc xxx ctermfg=24 guifg=#425c79
+DevIconMarkdown xxx ctermfg=239 guifg=#4a4a4a
+DevIconXeroLinux xxx ctermfg=60 guifg=#5b5f97
+DevIconImportConfiguration xxx ctermfg=236 guifg=#2f2f2f
+DevIconKdenliveLayoutsrc xxx ctermfg=24 guifg=#425c79
+DevIconMts     xxx ctermfg=24 guifg=#36677c
+DevIconWindows xxx ctermfg=67 guifg=#007bb3
+DevIconThunderbird xxx ctermfg=25 guifg=#0e5ca9
+DevIconScalaScript xxx ctermfg=88 guifg=#992e33
+DevIconcudah   xxx ctermfg=96 guifg=#6b4d83
+DevIconCxx     xxx ctermfg=24 guifg=#36677c
+DevIconMpp     xxx ctermfg=24 guifg=#36677c
+DevIconVanillaOS xxx ctermfg=58 guifg=#533f1a
+DevIconAlmalinux xxx ctermfg=160 guifg=#bf3437
+DevIconIonic   xxx ctermfg=25 guifg=#355fa5
+DevIconSignature xxx ctermfg=130 guifg=#975122
+DevIconMobi    xxx ctermfg=94 guifg=#755836
+DevIconHypridle xxx ctermfg=30 guifg=#008082
+DevIconIndexTheme xxx ctermfg=29 guifg=#1e7b4a
+DevIconTypeScriptReactSpec xxx ctermfg=26 guifg=#1354bf
+DevIconFusion360 xxx ctermfg=58 guifg=#576342
+DevIconTrisquelGNULinux xxx ctermfg=25 guifg=#0f58b6
+DevIconObjectiveCPlusPlus xxx ctermfg=24 guifg=#36677c
+DevIconMli     xxx ctermfg=130 guifg=#975122
+DevIconI18nConfig xxx ctermfg=60 guifg=#515987
+DevIconGulpfile xxx ctermfg=88 guifg=#992e33
+DevIconMkv     xxx ctermfg=94 guifg=#7e4c10
+DevIconSolus   xxx ctermfg=239 guifg=#4b5163
+DevIconHyprpaper xxx ctermfg=30 guifg=#008082
+DevIconXfce    xxx ctermfg=31 guifg=#0080a7
+DevIconSlackware xxx ctermfg=25 guifg=#35477f
+DevIconGruntfile xxx ctermfg=130 guifg=#975122
+DevIconHyprlock xxx ctermfg=30 guifg=#008082
+DevIconSabayon xxx ctermfg=238 guifg=#424242
+DevIconHyprland xxx ctermfg=30 guifg=#008082
+DevIconMATE    xxx ctermfg=22 guifg=#4e6d2e
+DevIconRockyLinux xxx ctermfg=29 guifg=#0b865e
+DevIconLXQt    xxx ctermfg=24 guifg=#016d9e
+DevIconCrystal xxx ctermfg=238 guifg=#434343
+DevIconLXDE    xxx ctermfg=239 guifg=#525252
+DevIconGNOME   xxx ctermfg=236 guifg=#333333
+DevIconCommitlintConfig xxx ctermfg=23 guifg=#207067
+DevIconCinnamon xxx ctermfg=124 guifg=#93451f
+DevIconArduino xxx ctermfg=30 guifg=#397981
+DevIconBudgie  xxx ctermfg=240 guifg=#4e5361
+DevIconASM     xxx ctermfg=25 guifg=#005594
+DevIconArch    xxx ctermfg=24 guifg=#0b6f9e
+DevIconClojureC xxx ctermfg=22 guifg=#466024
+DevIconGradleWrapperScript xxx ctermfg=24 guifg=#005f87
+DevIconFeature xxx ctermfg=28 guifg=#007e12
+DevIconGradleProperties xxx ctermfg=24 guifg=#005f87
+DevIconFIGletFontFormat xxx ctermfg=236 guifg=#2f2f2f
+DevIconGradleWrapperProperties xxx ctermfg=24 guifg=#005f87
+DevIconCue     xxx ctermfg=95 guifg=#764a57
+DevIconGoWork  xxx ctermfg=24 guifg=#36677c
+DevIconGoSum   xxx ctermfg=24 guifg=#36677c
+DevIconsbt     xxx ctermfg=88 guifg=#992e33
+DevIconGoMod   xxx ctermfg=24 guifg=#36677c
+DevIconWebmanifest xxx ctermfg=58 guifg=#504b1e
+DevIconSway    xxx ctermfg=58 guifg=#4e5815
+DevIconKiCadFootprintTable xxx ctermfg=236 guifg=#333333
+DevIconGemspec xxx ctermfg=52 guifg=#701516
+DevIconKiCadCache xxx ctermfg=236 guifg=#333333
+DevIconriver   xxx ctermfg=16 guifg=#000000
+DevIconFavicon xxx ctermfg=58 guifg=#666620
+DevIconGradle  xxx ctermfg=24 guifg=#005f87
+DevIconQtile   xxx ctermfg=236 guifg=#333333
+DevIconTypoScriptSetup xxx ctermfg=130 guifg=#aa5a00
+DevIconOggSpeexAudio xxx ctermfg=24 guifg=#005880
+DevIconFluxbox xxx ctermfg=238 guifg=#404040
+DevIconBazelBuild xxx ctermfg=22 guifg=#447028
+DevIconEnlightenment xxx ctermfg=236 guifg=#333333
+DevIconSte     xxx ctermfg=58 guifg=#576342
+DevIcondwm     xxx ctermfg=24 guifg=#0d5980
+DevIconawesome xxx ctermfg=238 guifg=#3e4651
+DevIconGleam   xxx ctermfg=53 guifg=#553a51
+DevIconXresources xxx ctermfg=124 guifg=#ac3a12
+DevIconSRCINFO xxx ctermfg=24 guifg=#0b6f9e
+DevIconPrusaSlicer xxx ctermfg=130 guifg=#9d4717
+DevIconPKGBUILD xxx ctermfg=24 guifg=#0b6f9e
+DevIconFreeCADConfig xxx ctermfg=88 guifg=#98262c
+DevIconPackagesProps xxx ctermfg=32 guifg=#007abf
+DevIconBuildTargets xxx ctermfg=32 guifg=#007abf
+DevIconBuildProps xxx ctermfg=32 guifg=#007abf
+DevIconAUTHORS xxx ctermfg=61 guifg=#6b4caa
+DevIconXauthority xxx ctermfg=124 guifg=#ac3a12
+DevIconObjectFile xxx ctermfg=124 guifg=#9f0500
+DevIconPrisma  xxx ctermfg=61 guifg=#444da2
+DevIconGo      xxx ctermfg=24 guifg=#36677c
+DevIconWasm    xxx ctermfg=55 guifg=#4539a4
+DevIconGv      xxx ctermfg=24 guifg=#244a6a
+DevIconH       xxx ctermfg=96 guifg=#6b4d83
+DevIconWindowsMediaAudio xxx ctermfg=24 guifg=#0075aa
+DevIconJson5   xxx ctermfg=58 guifg=#666620
+DevIconStp     xxx ctermfg=58 guifg=#576342
+DevIconHuff    xxx ctermfg=56 guifg=#4242c7
+DevIconXlsx    xxx ctermfg=29 guifg=#207245
+DevIconSharedObject xxx ctermfg=239 guifg=#494a47
+DevIconTFVars  xxx ctermfg=55 guifg=#4732af
+DevIconIcalendar xxx ctermfg=18 guifg=#2b2e83
+DevIconFennel  xxx ctermfg=236 guifg=#33312b
+DevIconPackageLockJson xxx ctermfg=52 guifg=#7a0d21
+DevIconCache   xxx ctermfg=236 guifg=#333333
+DevIconTor     xxx ctermfg=24 guifg=#36677c
+DevIconTypoScriptConfig xxx ctermfg=130 guifg=#aa5a00
+DevIconGDScript xxx ctermfg=59 guifg=#526064
+DevIconHs      xxx ctermfg=96 guifg=#6b4d83
+DevIconSass    xxx ctermfg=125 guifg=#a33759
+DevIconTxt     xxx ctermfg=22 guifg=#447028
+DevIconKDEPlasma xxx ctermfg=25 guifg=#1467b7
+DevIconFish    xxx ctermfg=238 guifg=#3a4446
+DevIconGCode   xxx ctermfg=24 guifg=#0f5582
+DevIconTails   xxx ctermfg=54 guifg=#56347c
+DevIconDll     xxx ctermfg=52 guifg=#4d2c0b
+DevIconConfigRu xxx ctermfg=52 guifg=#701516
+DevIconTumbleweed xxx ctermfg=30 guifg=#237b72
+DevIconClojureJS xxx ctermfg=24 guifg=#36677c
+DevIconUbuntu  xxx ctermfg=124 guifg=#a6360f
+DevIconClojureDart xxx ctermfg=24 guifg=#36677c
+DevIconKalgebrarc xxx ctermfg=32 guifg=#1573b6
+DevIconMjs     xxx ctermfg=58 guifg=#504b1e
+DevIconExe     xxx ctermfg=124 guifg=#9f0500
+DevIconD       xxx ctermfg=88 guifg=#842b25
+DevIconXsession xxx ctermfg=124 guifg=#ac3a12
+DevIconMint    xxx ctermfg=23 guifg=#44604a
+DevIconOggVideo xxx ctermfg=94 guifg=#7e4c10
+DevIconBashrc  xxx ctermfg=22 guifg=#447028
+DevIconMPEG4   xxx ctermfg=24 guifg=#0075aa
+DevIconKsh     xxx ctermfg=238 guifg=#3a4446
+DevIconIfc     xxx ctermfg=58 guifg=#576342
+DevIconIges    xxx ctermfg=58 guifg=#576342
+DevIconVoid    xxx ctermfg=23 guifg=#295340
+DevIconM3u     xxx ctermfg=95 guifg=#764a57
+DevIconVlang   xxx ctermfg=24 guifg=#3e5a7f
+DevIconPulseCodeModulation xxx ctermfg=24 guifg=#005880
+DevIconTypoScript xxx ctermfg=130 guifg=#aa5a00
+DevIconJson    xxx ctermfg=58 guifg=#666620
+DevIconRss     xxx ctermfg=94 guifg=#7e4e1e
+DevIconM3u8    xxx ctermfg=95 guifg=#764a57
+DevIconLinuxKernelObject xxx ctermfg=239 guifg=#494a47
+DevIconSolveSpace xxx ctermfg=58 guifg=#576342
+DevIconObjectiveC xxx ctermfg=25 guifg=#3b69aa
+DevIconM4V     xxx ctermfg=94 guifg=#7e4c10
+DevIconMagnet  xxx ctermfg=124 guifg=#a51b16
+DevIconGz      xxx ctermfg=94 guifg=#76520c
+OilHidden      xxx links to Comment
+OilDir         xxx links to Directory
+OilDirHidden   xxx links to OilHidden
+OilDirIcon     xxx links to OilDir
+OilSocket      xxx links to Keyword
+OilSocketHidden xxx links to OilHidden
+OilLinkHidden  xxx links to OilHidden
+OilOrphanLinkHidden xxx links to OilLinkHidden
+OilLinkTarget  xxx links to Comment
+OilOrphanLinkTarget xxx links to DiagnosticError
+OilLinkTargetHidden xxx links to OilHidden
+OilOrphanLinkTargetHidden xxx links to OilOrphanLinkTarget
+OilFileHidden  xxx links to OilHidden
+OilCreate      xxx links to DiagnosticInfo
+OilDelete      xxx links to DiagnosticError
+OilMove        xxx links to DiagnosticWarn
+OilCopy        xxx links to DiagnosticHint
+OilChange      xxx links to Special
+OilRestore     xxx links to OilCreate
+OilPurge       xxx links to OilDelete
+OilTrash       xxx links to OilDelete
+OilTrashSourcePath xxx links to Comment
+DressingSelectIdx xxx links to Special
+CmpItemAbbrDefault xxx cleared
+CmpItemAbbr    xxx guifg=#2a303c
+CmpItemAbbrDeprecatedDefault xxx guifg=#9fa5b0
+CmpItemAbbrDeprecated xxx links to CmpItemAbbrDeprecatedDefault
+CmpItemAbbrMatchDefault xxx cleared
+CmpItemAbbrMatch xxx cterm=bold gui=bold guifg=#3f5f7f
+CmpItemAbbrMatchFuzzyDefault xxx cleared
+CmpItemAbbrMatchFuzzy xxx links to CmpItemAbbrMatchFuzzyDefault
+CmpItemKindDefault xxx guifg=NvimDarkCyan
+CmpItemKind    xxx links to CmpItemKindDefault
+CmpItemMenuDefault xxx cleared
+CmpItemMenu    xxx links to CmpItemMenuDefault
+CmpItemKindVariableDefault xxx links to CmpItemKind
+CmpItemKindVariable xxx guifg=#8d6786
+CmpItemKindReferenceDefault xxx links to CmpItemKind
+CmpItemKindReference xxx guifg=#3e4450
+CmpItemKindFileDefault xxx links to CmpItemKind
+CmpItemKindFile xxx guifg=#2a303c
+CmpItemKindColorDefault xxx links to CmpItemKind
+CmpItemKindColor xxx guifg=#2a303c
+CmpItemKindValueDefault xxx links to CmpItemKind
+CmpItemKindValue xxx guifg=#6181a1
+CmpItemKindUnitDefault xxx links to CmpItemKind
+CmpItemKindUnit xxx guifg=#8d6786
+CmpItemKindPropertyDefault xxx links to CmpItemKind
+CmpItemKindProperty xxx guifg=#a3454e
+CmpItemKindModuleDefault xxx links to CmpItemKind
+CmpItemKindModule xxx guifg=#b88339
+CmpItemKindInterfaceDefault xxx links to CmpItemKind
+CmpItemKindInterface xxx guifg=#75905e
+CmpItemKindFieldDefault xxx links to CmpItemKind
+CmpItemKindField xxx guifg=#a3454e
+CmpItemKindConstructorDefault xxx links to CmpItemKind
+CmpItemKindConstructor xxx guifg=#3f5f7f
+CmpItemKindMethodDefault xxx links to CmpItemKind
+CmpItemKindMethod xxx guifg=#3f5f7f
+CmpItemKindClassDefault xxx links to CmpItemKind
+CmpItemKindClass xxx guifg=#395979
+CmpItemKindEnumDefault xxx links to CmpItemKind
+CmpItemKindEnum xxx guifg=#3f5f7f
+CmpItemKindFolderDefault xxx links to CmpItemKind
+CmpItemKindFolder xxx guifg=#2a303c
+CmpItemKindEnumMemberDefault xxx links to CmpItemKind
+CmpItemKindEnumMember xxx guifg=#9c87c7
+CmpItemKindConstantDefault xxx links to CmpItemKind
+CmpItemKindConstant xxx guifg=#b46b54
+CmpItemKindTypeParameterDefault xxx links to CmpItemKind
+CmpItemKindTypeParameter xxx guifg=#a3454e
+CmpItemKindTextDefault xxx links to CmpItemKind
+CmpItemKindText xxx guifg=#75905e
+CmpItemKindOperatorDefault xxx links to CmpItemKind
+CmpItemKindOperator xxx guifg=#3e4450
+CmpItemKindEventDefault xxx links to CmpItemKind
+CmpItemKindEvent xxx guifg=#c18401
+CmpItemKindStructDefault xxx links to CmpItemKind
+CmpItemKindStruct xxx guifg=#8d6786
+CmpItemKindFunctionDefault xxx links to CmpItemKind
+CmpItemKindFunction xxx guifg=#3f5f7f
+CmpItemKindKeywordDefault xxx links to CmpItemKind
+CmpItemKindKeyword xxx guifg=#2a303c
+CmpItemKindSnippetDefault xxx links to CmpItemKind
+CmpItemKindSnippet xxx guifg=#a3454e
+CmpPmenu       xxx cleared
+CmpItemKindType xxx guifg=#b88339
+CmpItemKindStructure xxx guifg=#8d6786
+CmpItemKindIdentifier xxx guifg=#a3454e
+CmpSel         xxx cterm=bold gui=bold
+                   links to PmenuSel
+CmpBorder      xxx guifg=#9fa5b0
+CmpDocBorder   xxx guifg=#a9afba
+CmpDoc         xxx guibg=#ced4df
+CmpItemKindTabNine xxx guifg=#ae5059
+CmpItemKindCodeium xxx guifg=#809b69
+CmpItemKindCopilot xxx guifg=#75905e
+CopilotSuggestion xxx links to Comment
+CopilotAnnotation xxx links to Comment
+@markup.list   xxx guifg=#a3454e
+RenderMarkdownUnchecked xxx links to @markup.list.unchecked
+RenderMarkdownIndent xxx links to Whitespace
+RenderMarkdownH3 xxx links to @markup.heading.3.markdown
+RenderMarkdownWarn xxx links to DiagnosticWarn
+RenderMarkdownSuccess xxx links to DiagnosticOk
+RenderMarkdownTableFill xxx links to Conceal
+RenderMarkdownTableRow xxx links to Normal
+RenderMarkdownTableHead xxx links to @markup.heading
+RenderMarkdownChecked xxx links to @markup.list.checked
+@markup.raw    xxx guifg=#b46b54
+RenderMarkdownTodo xxx links to @markup.raw
+RenderMarkdownError xxx links to DiagnosticError
+@markup.link.label xxx guifg=#5b7b9b
+RenderMarkdownLink xxx links to @markup.link.label.markdown_inline
+RenderMarkdownHint xxx links to DiagnosticHint
+RenderMarkdownHtmlComment xxx links to @comment
+RenderMarkdownMath xxx links to @markup.math
+RenderMarkdownSign xxx links to SignColumn
+RenderMarkdownDash xxx links to LineNr
+@markup.quote  xxx guibg=#c9cfda
+RenderMarkdownQuote xxx links to @markup.quote
+RenderMarkdownBullet xxx links to Normal
+RenderMarkdownCodeInline xxx links to RenderMarkdownCode
+RenderMarkdownInlineHighlight xxx links to RenderMarkdownCodeInline
+RenderMarkdownCode xxx links to ColorColumn
+RenderMarkdownH6Bg xxx links to DiffDelete
+RenderMarkdownH5Bg xxx links to DiffDelete
+RenderMarkdownH4Bg xxx links to DiffDelete
+RenderMarkdownInfo xxx links to DiagnosticInfo
+RenderMarkdownH2Bg xxx links to DiffChange
+RenderMarkdownH1Bg xxx links to DiffAdd
+RenderMarkdownH6 xxx links to @markup.heading.6.markdown
+RenderMarkdownH5 xxx links to @markup.heading.5.markdown
+RenderMarkdownH4 xxx links to @markup.heading.4.markdown
+RenderMarkdownH2 xxx links to @markup.heading.2.markdown
+RenderMarkdownH1 xxx links to @markup.heading.1.markdown
+RenderMarkdownH3Bg xxx links to DiffDelete
+RenderMarkdownWikiLink xxx links to RenderMarkdownLink
+AvanteInlineHint xxx links to Keyword
+AvantePopupHint xxx links to NormalFloat
+AvanteAnnotation xxx links to Comment
+AvanteReversedThirdTitle xxx guifg=#353b45
+AvanteSuggestion xxx links to Comment
+AvanteTitle    xxx guifg=#1e222a guibg=#98c379
+AvanteReversedSubtitle xxx guifg=#56b6c2
+AvanteSubtitle xxx guifg=#1e222a guibg=#56b6c2
+AvanteToBeDeletedWOStrikethrough xxx guibg=#562c30
+AvanteToBeDeleted xxx cterm=strikethrough gui=strikethrough guibg=#ffcccc
+AvanteThirdTitle xxx guifg=#abb2bf guibg=#353b45
+AvanteReversedTitle xxx guifg=#98c379
+AvanteConflictCurrent xxx cterm=bold gui=bold guibg=#8cf8f7
+AvanteConflictIncoming xxx cterm=bold gui=bold guibg=#b3f6c0
+AvanteConflictIncomingLabel xxx guibg=#bdffcb
+AvanteConflictCurrentLabel xxx guibg=#94ffff
+@method        xxx guifg=#3f5f7f
+@variable.member xxx guifg=#a3454e
+@variable.member.key xxx guifg=#a3454e
+@comment.danger xxx guifg=#c9cfda guibg=#a3454e
+@tag.attribute xxx links to @property
+@string.special.symbol xxx guifg=#75905e
+@string.regex  xxx guifg=#5b7b9b
+@punctuation.delimiter xxx guifg=#a3454e
+@reference     xxx guifg=#3e4450
+@none          xxx guifg=#3e4450
+@function.method.call xxx guifg=#3f5f7f
+@keyword.operator xxx guifg=#8d6786
+@function.call xxx guifg=#3f5f7f
+@function.macro xxx guifg=#a3454e
+@keyword.return xxx guifg=#8d6786
+@keyword.function xxx guifg=#8d6786
+@keyword.exception xxx guifg=#a3454e
+@annotation    xxx guifg=#a3454e
+@punctuation.bracket xxx guifg=#5b7b9b
+@tag.delimiter xxx guifg=#a3454e
+@text          xxx guifg=#3e4450
+@text.strong   xxx cterm=bold gui=bold
+@text.emphasis xxx guifg=#b46b54
+@text.strike   xxx cterm=strikethrough gui=strikethrough guifg=#a3454e
+@text.literal  xxx guifg=#b46b54
+@text.uri      xxx cterm=underline gui=underline guifg=#b46b54
+@definition    xxx cterm=underline gui=underline guisp=#d7d7d8
+@scope         xxx cterm=bold gui=bold
+@keyword.import xxx links to Include
+@keyword.conditional xxx links to Conditional
+@markup.link.url xxx cterm=underline gui=underline guifg=#b46b54
+Variable       xxx guifg=#3e4450
+@error         xxx guifg=#a3454e
+TelescopeMatching xxx links to Special
+TelescopePromptCounter xxx links to NonText
+TelescopeTitle xxx links to TelescopeBorder
+TelescopePreviewTitle xxx guifg=#d8dee9 guibg=#75905e
+TelescopeBorder xxx guifg=#a9afba
+TelescopeResultsTitle xxx guifg=#d8dee9 guibg=#3f5f7f
+TelescopePromptTitle xxx guifg=#d8dee9 guibg=#a3454e
+TelescopeNormal xxx cleared
+TelescopePreviewBorder xxx links to TelescopeBorder
+TelescopeResultsBorder xxx links to TelescopeBorder
+TelescopePromptBorder xxx guifg=#a9afba
+TelescopeResultsNormal xxx links to TelescopeNormal
+TelescopePromptNormal xxx guifg=#2a303c
+TelescopeMultiIcon xxx links to Identifier
+TelescopeResultsDiffUntracked xxx links to NonText
+TelescopePreviewGroup xxx links to Constant
+TelescopeResultsDiffDelete xxx guifg=#a3454e
+TelescopeResultsDiffAdd xxx guifg=#75905e
+TelescopeResultsDiffChange xxx guifg=#c18401
+TelescopeResultsSpecialComment xxx links to SpecialComment
+TelescopePreviewUser xxx links to Constant
+TelescopeResultsComment xxx links to Comment
+TelescopeResultsNumber xxx links to Number
+TelescopeResultsIdentifier xxx links to Identifier
+TelescopeResultsLineNr xxx links to LineNr
+TelescopeResultsVariable xxx links to SpecialChar
+Struct         xxx cleared
+TelescopeResultsStruct xxx links to Struct
+TelescopeResultsOperator xxx links to Operator
+Method         xxx cleared
+TelescopeResultsMethod xxx links to Method
+TelescopeResultsFunction xxx links to Function
+TelescopeResultsField xxx links to Function
+TelescopeResultsConstant xxx links to Constant
+TelescopeResultsClass xxx links to Function
+TelescopePreviewMessage xxx links to TelescopePreviewNormal
+TelescopePreviewMessageFillchar xxx links to TelescopePreviewMessage
+TelescopePreviewNormal xxx links to TelescopeNormal
+TelescopeMultiSelection xxx links to Type
+TelescopeSelection xxx guifg=#2a303c guibg=#c7cdd8
+TelescopeSelectionCaret xxx links to TelescopeSelection
+TelescopePreviewSize xxx links to String
+TelescopePreviewSticky xxx links to Keyword
+TelescopePreviewHyphen xxx links to NonText
+TelescopePreviewExecute xxx links to String
+TelescopePreviewWrite xxx links to Statement
+TelescopePreviewRead xxx links to Constant
+TelescopePreviewSocket xxx links to Statement
+TelescopePreviewLink xxx links to Special
+TelescopePreviewBlock xxx links to Constant
+TelescopePreviewDirectory xxx links to Directory
+TelescopePreviewCharDev xxx links to Constant
+TelescopePreviewPipe xxx links to Constant
+TelescopePreviewMatch xxx links to Search
+TelescopePreviewDate xxx links to Directory
+TelescopePreviewLine xxx links to Visual
+TelescopePromptPrefix xxx guifg=#2a303c
+@spell         xxx cleared
+RenamerBorder  xxx guifg=#a3454e
+RenamerTitle   xxx guifg=#d8dee9 guibg=#a3454e
+DiagnosticInformation xxx guifg=#75905e
+luaMetaMethod  xxx links to Function
+luaParenError  xxx links to Error
+luaParen       xxx cleared
+luaError       xxx links to Error
+luaFunction    xxx links to Function
+luaFunctionBlock xxx cleared
+luaCondElse    xxx links to Conditional
+luaCondEnd     xxx cleared
+luaCond        xxx links to Conditional
+luaCondElseif  xxx cleared
+luaCondStart   xxx cleared
+luaStatement   xxx links to Statement
+luaBlock       xxx cleared
+luaRepeat      xxx links to Repeat
+luaRepeatBlock xxx cleared
+luaWhile       xxx cleared
+luaFor         xxx links to Repeat
+luaLabel       xxx links to Label
+luaOperator    xxx links to Operator
+luaSymbolOperator xxx links to luaOperator
+luaTodo        xxx links to Todo
+luaComment     xxx links to Comment
+luaInnerComment xxx cleared
+luaCommentDelimiter xxx links to luaComment
+luaConstant    xxx links to Constant
+luaSpecial     xxx links to SpecialChar
+luaString2     xxx links to String
+luaStringDelimiter xxx links to luaString
+luaString      xxx links to String
+luaNumber      xxx links to Number
+luaTable       xxx links to Structure
+luaTableBlock  xxx cleared
+luaFunc        xxx links to Identifier
+DiffChangeDelete xxx guifg=#a3454e
+DiffAdded      xxx guifg=#75905e
+diffNewFile    xxx guifg=#3f5f7f
+diffOldFile    xxx guifg=#ae5059
+gitcommitUnmergedType xxx guifg=#3f5f7f
+gitcommitSelectedFile xxx cterm=bold gui=bold guifg=#75905e
+gitcommitDiscardedFile xxx cterm=bold gui=bold guifg=#a3454e
+gitcommitUnmergedFile xxx cterm=bold gui=bold guifg=#a3454e
+gitcommitUntrackedFile xxx guifg=#b88339
+gitcommitBranch xxx cterm=bold gui=bold guifg=#b46b54
+gitcommitDiscardedType xxx guifg=#3f5f7f
+gitcommitSelectedType xxx guifg=#3f5f7f
+gitcommitHeader xxx guifg=#8d6786
+gitcommitSelected xxx guifg=#dfdfe0
+gitcommitDiscarded xxx guifg=#dfdfe0
+gitcommitUntracked xxx guifg=#dfdfe0
+gitcommitComment xxx guifg=#dfdfe0
+gitcommitSummary xxx guifg=#75905e
+gitcommitOverflow xxx guifg=#a3454e
+DiffRemoved    xxx guifg=#a3454e
+DiffModified   xxx guifg=#b46b54
+GitSignsAdd    xxx links to Added
+GitGutterAdd   xxx cleared
+SignifySignAdd xxx cleared
+DiffAddedGutter xxx cleared
+GitSignsChange xxx links to Changed
+GitGutterChange xxx cleared
+SignifySignChange xxx cleared
+DiffModifiedGutter xxx cleared
+GitSignsDelete xxx links to Removed
+GitGutterDelete xxx cleared
+SignifySignDelete xxx cleared
+DiffRemovedGutter xxx cleared
+GitSignsChangedelete xxx links to GitSignsChange
+GitSignsTopdelete xxx links to GitSignsDelete
+GitSignsUntracked xxx links to GitSignsAdd
+GitSignsAddNr  xxx links to GitSignsAdd
+GitGutterAddLineNr xxx cleared
+GitSignsChangeNr xxx links to GitSignsChange
+GitGutterChangeLineNr xxx cleared
+GitSignsDeleteNr xxx links to GitSignsDelete
+GitGutterDeleteLineNr xxx cleared
+GitSignsChangedeleteNr xxx links to GitSignsChangeNr
+GitSignsTopdeleteNr xxx links to GitSignsDeleteNr
+GitSignsUntrackedNr xxx links to GitSignsAddNr
+GitSignsAddLn  xxx links to DiffAdd
+GitGutterAddLine xxx cleared
+SignifyLineAdd xxx cleared
+GitSignsChangeLn xxx links to DiffChange
+GitGutterChangeLine xxx cleared
+SignifyLineChange xxx cleared
+GitSignsChangedeleteLn xxx links to GitSignsChangeLn
+GitSignsTopdeleteLn xxx links to GitSignsDeleteLn
+GitSignsDeleteLn xxx cleared
+GitSignsUntrackedLn xxx links to GitSignsAddLn
+GitSignsAddCul xxx links to GitSignsAdd
+GitSignsChangeCul xxx links to GitSignsChange
+GitSignsDeleteCul xxx links to GitSignsDelete
+GitSignsChangedeleteCul xxx links to GitSignsChangeCul
+GitSignsTopdeleteCul xxx links to GitSignsDeleteCul
+GitSignsUntrackedCul xxx links to GitSignsAddCul
+GitSignsStagedAdd xxx guifg=#002a11
+GitSignsStagedChange xxx guifg=#003939
+GitSignsStagedDelete xxx guifg=#2c0004
+GitSignsStagedChangedelete xxx guifg=#003939
+GitSignsStagedTopdelete xxx guifg=#2c0004
+GitSignsStagedUntracked xxx guifg=#002a11
+GitSignsStagedAddNr xxx guifg=#002a11
+GitSignsStagedChangeNr xxx guifg=#003939
+GitSignsStagedDeleteNr xxx guifg=#2c0004
+GitSignsStagedChangedeleteNr xxx guifg=#003939
+GitSignsStagedTopdeleteNr xxx guifg=#2c0004
+GitSignsStagedUntrackedNr xxx guifg=#002a11
+GitSignsStagedAddLn xxx guifg=#1f2228
+GitSignsStagedChangeLn xxx guifg=#45484e
+GitSignsStagedChangedeleteLn xxx guifg=#45484e
+GitSignsStagedTopdeleteLn xxx cleared
+GitSignsStagedUntrackedLn xxx guifg=#1f2228
+GitSignsStagedAddCul xxx guifg=#002a11
+GitSignsStagedChangeCul xxx guifg=#003939
+GitSignsStagedDeleteCul xxx guifg=#2c0004
+GitSignsStagedChangedeleteCul xxx guifg=#003939
+GitSignsStagedTopdeleteCul xxx guifg=#2c0004
+GitSignsStagedUntrackedCul xxx guifg=#002a11
+GitSignsAddPreview xxx links to DiffAdd
+GitSignsDeletePreview xxx links to DiffDelete
+GitGutterDeleteLine xxx cleared
+SignifyLineDelete xxx cleared
+GitSignsCurrentLineBlame xxx links to NonText
+GitSignsAddInline xxx links to TermCursor
+GitSignsDeleteInline xxx links to TermCursor
+GitSignsChangeInline xxx links to TermCursor
+GitSignsAddLnInline xxx links to GitSignsAddInline
+GitSignsChangeLnInline xxx links to GitSignsChangeInline
+GitSignsDeleteLnInline xxx links to GitSignsDeleteInline
+GitSignsDeleteVirtLn xxx links to DiffDelete
+GitSignsDeleteVirtLnInLine xxx links to GitSignsDeleteLnInline
+GitSignsVirtLnum xxx links to GitSignsDeleteVirtLn
+IndentBlanklineSpaceChar xxx guifg=#acb2bd
+IndentBlanklineChar xxx guifg=#acb2bd
+IndentBlanklineContextStart xxx guibg=#bdc3ce
+IndentBlanklineContextChar xxx guifg=#a9afba
+IndentBlanklineSpaceCharBlankline xxx cterm=nocombine gui=nocombine guifg=#dfdfe0
+IndentBlanklineContextSpaceChar xxx cleared
+colorizer_mb_4c566a xxx guifg=White guibg=#4c566a
+MasonHighlightBlock xxx guifg=#d8dee9 guibg=#75905e
+MasonHighlightBlockBold xxx links to MasonHighlightBlock
+MasonHighlight xxx guifg=#3f5f7f
+MasonHeader    xxx guifg=#d8dee9 guibg=#a3454e
+MasonMutedBlock xxx guifg=#8b919c guibg=#c7cdd8
+MasonMuted     xxx guifg=#8b919c
+MasonHeaderSecondary xxx links to MasonHighlightBlock
+nvUpdaterTitle xxx guifg=#d8dee9 guibg=#b46b54
+nvUpdaterFAIL  xxx guifg=#a3454e
+nvUpdaterCommits xxx guifg=#75905e
+nvUpdaterProgressFAIL xxx guifg=#a3454e guibg=#bdc3ce
+nvUpdaterProgressDONE xxx guifg=#75905e guibg=#bdc3ce
+nvUpdaterProgress xxx guifg=#a3454e guibg=#bdc3ce
+nvUpdaterTitleFAIL xxx guifg=#d8dee9 guibg=#a3454e
+nvUpdaterTitleDone xxx guifg=#d8dee9 guibg=#75905e
+NvChHeadcyan   xxx guifg=#d8dee9 guibg=#6181a1
+NvChHeadvibrant_green xxx guifg=#d8dee9 guibg=#809b69
+NvChHeadteal   xxx guifg=#d8dee9 guibg=#395979
+NvChAsciiHeader xxx guifg=#3f5f7f
+NvChSection    xxx guibg=#c9cfda
+NvChHeading    xxx cterm=bold gui=bold guifg=#d8dee9 guibg=#3f5f7f
+NvChHeadblue   xxx guifg=#d8dee9 guibg=#3f5f7f
+NvChHeadred    xxx guifg=#d8dee9 guibg=#a3454e
+NvChHeadgreen  xxx guifg=#d8dee9 guibg=#75905e
+NvChHeadyellow xxx guifg=#d8dee9 guibg=#c18401
+NvChHeadorange xxx guifg=#d8dee9 guibg=#b46b54
+NvChHeadbaby_pink xxx guifg=#d8dee9 guibg=#ae5059
+NvChHeadpurple xxx guifg=#d8dee9 guibg=#9c87c7
+NvChHeadwhite  xxx guifg=#d8dee9 guibg=#2a303c
+NvDashButtons  xxx guifg=#2a303c guibg=#c9cfda
+NvDashAscii    xxx guifg=#d8dee9 guibg=#3f5f7f
+NvimTreeWindowPicker xxx guifg=#a3454e guibg=#c9cfda
+NvimTreeGitIgnored xxx guifg=#8b919c
+NvimTreeOpenedFolderName xxx guifg=#616773
+NvimTreeIndentMarker xxx guifg=#9fa5b0
+NvimTreeGitDirty xxx guifg=#a3454e
+NvimTreeFolderArrowClosed xxx guifg=#9fa5b0
+NvimTreeFolderArrowOpen xxx guifg=#616773
+NvimTreeFolderName xxx guifg=#616773
+NvimTreeNormal xxx cleared
+NvimTreeNormalNC xxx cleared
+NvimTreeCursorLine xxx cleared
+NvimTreeWinSeparator xxx guifg=#bdc3ce
+NvimTreeEmptyFolderName xxx guifg=#616773
+NvimTreeEndOfBuffer xxx guifg=#ced4df
+NvimTreeFolderIcon xxx guifg=#616773
+NvimTreeRootFolder xxx cterm=bold gui=bold guifg=#a3454e
+NvimTreeSpecialFile xxx cterm=bold gui=bold guifg=#c18401
+NvimTreeGitDeleted xxx guifg=#a3454e
+NvimTreeGitNew xxx guifg=#c18401
+TblineTabNewBtn xxx cterm=bold gui=bold guifg=#2a303c guibg=#b3b9c4
+TblineFill     xxx cleared
+TbLineBufOn    xxx guifg=#2a303c
+TbLineBufOff   xxx guifg=#8b919c
+TbLineBufOnClose xxx guifg=#a3454e
+TbLineBufOffClose xxx guifg=#8b919c
+TbLineBufOnModified xxx guifg=#75905e
+TbLineBufOffModified xxx guifg=#a3454e
+TbLineCloseAllBufsBtn xxx cterm=bold gui=bold guifg=#d8dee9 guibg=#a3454e
+TbLineThemeToggleBtn xxx cterm=bold gui=bold guifg=#2a303c guibg=#b3b9c4
+TBTabTitle     xxx guifg=#d8dee9 guibg=#2a303c
+TbLineTabCloseBtn xxx guifg=#d8dee9 guibg=#5b7b9b
+TbLineTabOff   xxx guifg=#2a303c guibg=#bdc3ce
+TbLineTabOn    xxx cterm=bold gui=bold guifg=#d8dee9 guibg=#5b7b9b
+WhichKey       xxx guifg=#2a303c
+WhichKeyGroup  xxx guifg=#75905e
+WhichKeySeparator xxx guifg=#8b919c
+WhichKeyValue  xxx guifg=#75905e
+WhichKeyDesc   xxx guifg=#2a303c

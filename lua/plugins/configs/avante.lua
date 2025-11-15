@@ -1,16 +1,20 @@
 return {
   ---@alias Provider "claude" | "openai" | "azure" | "gemini" | "cohere" | "copilot" | string
+  providers = {
+    copilot = {
+      endpoint = "https://api.githubcopilot.com",
+      model = "claude-4.5-sonnet",
+      proxy = nil, -- [protocol://]host[:port] Use this proxy
+      allow_insecure = false, -- Allow insecure server connections
+      timeout = 30000, -- Timeout in milliseconds
+      extra_request_body = {
+        temperature = 0,
+        max_tokens = 4096
+      }
+    },
+  },
   provider = "copilot", -- Recommend using Claude
   auto_suggestions_provider = "copilot", -- Since auto-suggestions are a high-frequency operation and therefore expensive, it is recommended to specify an inexpensive provider or even a free provider: copilot
-  copilot = {
-    endpoint = "https://api.githubcopilot.com",
-    model = "claude-3.5-sonnet",
-    proxy = nil, -- [protocol://]host[:port] Use this proxy
-    allow_insecure = false, -- Allow insecure server connections
-    timeout = 30000, -- Timeout in milliseconds
-    temperature = 0,
-    max_tokens = 4096,
-  },
   ---Specify the special dual_boost mode
   ---1. enabled: Whether to enable dual_boost mode. Default to false.
   ---2. first_provider: The first provider to generate response. Default to "openai".

@@ -21,7 +21,7 @@ M.lazy = function(install_path)
   shell_call { "git", "clone", "--depth", "1", "-b", "v2.0", base46_repo, lazy_path }
   vim.opt.rtp:prepend(lazy_path)
 
-  require("base46").compile()
+  -- require("base46").compile()
 
   --------- lazy.nvim ---------------
   M.echo "  Installing lazy.nvim & plugins ..."

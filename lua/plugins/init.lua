@@ -20,14 +20,6 @@ local default_plugins = {
     branch = "v2.0",
     lazy = false,
   },
-  -- {
-  --   "Darazaki/indent-o-matic",
-  --   branch = "master",
-  --   init = function()
-  --     require('indent-o-matic').setup{}
-  --   end
-  -- },
-
   {
     "NvChad/nvterm",
     init = function()
@@ -263,10 +255,6 @@ local default_plugins = {
       require("which-key").setup(opts)
     end,
   },
-  -- {
-  --   "github/copilot.vim",
-  --   event = "VeryLazy",
-  -- },
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
@@ -361,6 +349,8 @@ local default_plugins = {
       },
     },
   },
+
+  -- navigation stuff
 }
 
 local config = require("core.utils").load_config()
